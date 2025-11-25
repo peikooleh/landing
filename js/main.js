@@ -454,4 +454,110 @@
       });
     });
   }
+
+  // --- GA4: helper для отправки событий ---
+  function trackEvent(name, params) {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('event', name, params || {});
+  }
+
+  // --- GA4: навешиваем обработчики на элементы лендинга ---
+  function setupAnalyticsEvents() {
+    var currentLang = document.documentElement.lang || 'ru';
+
+    // 1) Старт тренажёра из HERO
+    var startBtn = document.querySelector('[data-role="start-trainer"]');
+    if (startBtn) {
+      startBtn.addEventListener('click', function () {
+        trackEvent('start_trainer', {
+          location: 'hero',
+          lang: currentLang
+        });
+      });
+    }
+
+    // 2) "Поддержать проект" (кнопка в шапке и другие триггеры с data-role="support-open")
+    var supportButtons = document.querySelectorAll('[data-role="support-open"]');
+    if (supportButtons && supportButtons.length) {
+      supportButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          trackEvent('support_open', {
+            source: 'landing',
+            lang: currentLang
+          });
+        });
+      });
+    }
+
+    // 3) Кнопка "Купить PRO-версию" под телефоном
+    var buyProBtn = document.querySelector('[data-role="buy-pro"]');
+    if (buyProBtn) {
+      buyProBtn.addEventListener('click', function () {
+        trackEvent('buy_pro_click', {
+          location: 'hero',
+          lang: currentLang
+        });
+      });
+    }
+
+    // 4) Клики по плашкам доната в спойлере (Monobank / PayPal)
+    var monoLink = document.querySelector('[data-dc="mono"]');
+    if (monoLink) {
+      monoLink.addEventListener('click', function () {
+        trackEvent('donate_click', {
+          method: 'monobank',
+          lang: currentLang
+        });
+      });
+    }
+
+    var paypalLink = document.querySelector('[data-dc="paypal"]');
+    if (paypalLink) {
+      paypalLink.addEventListener('click', function () {
+        trackEvent('donate_click', {
+          method: 'paypal',
+          lang: currentLang
+        });
+      });
+    }
+
+    // 5) Шеринг (Telegram / X / Facebook / LinkedIn)
+    var shareLinks = document.querySelectorAll('.share-buttons a');
+    if (shareLinks && shareLinks.length) {
+      shareLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+          var label = (link.textContent || '').trim();
+          trackEvent('share_click', {
+            platform: label,   // например "Telegram", "Twitter / X"
+            lang: currentLang
+          });
+        });
+      });
+    }
+
+    // 6) Клики по плашкам стор (Google Play / App Store)
+    var googleBadge = document.querySelector('.store-badge--google');
+    if (googleBadge) {
+      googleBadge.addEventListener('click', function () {
+        trackEvent('store_badge_click', {
+          store: 'google_play',
+          lang: currentLang
+        });
+      });
+    }
+
+    var appleBadge = document.querySelector('.store-badge--apple');
+    if (appleBadge) {
+      appleBadge.addEventListener('click', function () {
+        trackEvent('store_badge_click', {
+          store: 'app_store',
+          lang: currentLang
+        });
+      });
+    }
+  }
+
+  // Запускаем навешивание обработчиков (скрипт подключён с defer, DOM уже есть)
+  setupAnalyticsEvents();
+  
 })();

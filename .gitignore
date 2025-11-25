@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# npm / node (на будущее, если появятся тулзы)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build-артефакты (если появится сборка)
+dist/
+build/
+
+# env / служебные файлы
+.env
+.env.local

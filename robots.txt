@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Host: moyamova.com
+Sitemap: https://moyamova.com/sitemap.xml

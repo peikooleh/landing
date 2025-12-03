@@ -17,7 +17,7 @@
       'hero.subtitle':
         '<span class="brand-word">MOYAMOVA</span> — простой и бесплатный тренажёр немецких слов. Работает прямо в браузере, без скачивания, регистрации и слежки. Умные повторы, офлайн-доступ и сохранение прогресса — даже без интернета.',
       'hero.currentLang':
-        'Учите языки легко — без регистрации, рекламы и ограничений',
+        'Учите немецкий, английский и испанский — без регистрации, рекламы и ограничений',
       'hero.ctaPrimary': 'Начать учить слова бесплатно',
       'hero.ctaSecondary': 'Как это работает',
       'hero.note': '* работает как приложение, сохраняет прогресс офлайн',
@@ -121,7 +121,7 @@
       'hero.subtitle':
         '<span class="brand-word">MOYAMOVA</span> — простий і безкоштовний тренажер німецьких слів. Працює прямо в браузері, без завантажень, реєстрації та стеження. Розумні повтори, офлайн-доступ і збереження прогресу — навіть без інтернету.',
       'hero.currentLang':
-        'Вчіть мови легко без реєстрації, реклами та обмежень',
+        'Вчіть німецьку без реєстрації, реклами та обмежень',
       'hero.ctaPrimary': 'Почати вчити слова безкоштовно',
       'hero.ctaSecondary': 'Як це працює',
       'hero.note': '* працює як застосунок, зберігає прогрес офлайн',
@@ -312,34 +312,45 @@
     });
   }
 
-  // Smart opening of trainer
-  const startBtn = document.querySelector('[data-role="start-trainer"]');
-  const TRAINER_URL_FALLBACK = 'https://MOYAMOVA.online/';
+ // Smart opening of trainer
+const startBtn = document.querySelector('[data-role="start-trainer"]');
+const TRAINER_URL_FALLBACK = 'https://MOYAMOVA.online/';
 
-  if (startBtn) {
-    startBtn.addEventListener('click', (e) => {
-      e.preventDefault();
+if (startBtn) {
+  startBtn.addEventListener('click', (e) => {
+    e.preventDefault();
 
-      trackEvent('start_trainer', {
-        location: 'hero',
-        device: window.innerWidth < 768 ? 'mobile' : 'desktop'
-      });
-
-      // Берём URL из href — сюда GA4 при cross-domain подставит _gl
-      const targetUrl = startBtn.href || TRAINER_URL_FALLBACK;
-
-      const isMobile =
-        /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
-        window.innerWidth < 768;
-
-      if (isMobile) {
-        window.location.href = targetUrl;
-      } else {
-        window.open(targetUrl, '_blank', 'noopener');
-      }
+    trackEvent('start_trainer', {
+      location: 'hero',
+      device: window.innerWidth < 768 ? 'mobile' : 'desktop'
     });
-  }
 
+    // Берём URL из href — сюда GA4 при cross-domain подставит _gl
+    const targetUrl = startBtn.href || TRAINER_URL_FALLBACK;
+
+    const isMobile =
+      /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+      window.innerWidth < 768;
+
+    if (isMobile) {
+      // На мобилках всегда фуллскрин
+      window.location.href = targetUrl;
+    } else {
+      // На десктопе — "мобильное" окошко по центру
+      const w = 430;
+      const h = 800;
+      const left = Math.round(window.screenX + (window.innerWidth - w) / 2);
+      const top  = Math.round(window.screenY + (window.innerHeight - h) / 2);
+
+      window.open(
+        targetUrl,
+        'MOYAMOVATrainer',
+        `width=${w},height=${h},left=${left},top=${top},` +
+          'resizable=yes,scrollbars=yes,status=no'
+      );
+    }
+  });
+}
   function openDonateSheet() {
     const accordion = document.querySelector('#donate-accordion');
 
@@ -454,110 +465,4 @@
       });
     });
   }
-
-  // --- GA4: helper для отправки событий ---
-  function trackEvent(name, params) {
-    if (typeof window.gtag !== 'function') return;
-    window.gtag('event', name, params || {});
-  }
-
-  // --- GA4: навешиваем обработчики на элементы лендинга ---
-  function setupAnalyticsEvents() {
-    var currentLang = document.documentElement.lang || 'ru';
-
-    // 1) Старт тренажёра из HERO
-    var startBtn = document.querySelector('[data-role="start-trainer"]');
-    if (startBtn) {
-      startBtn.addEventListener('click', function () {
-        trackEvent('start_trainer', {
-          location: 'hero',
-          lang: currentLang
-        });
-      });
-    }
-
-    // 2) "Поддержать проект" (кнопка в шапке и другие триггеры с data-role="support-open")
-    var supportButtons = document.querySelectorAll('[data-role="support-open"]');
-    if (supportButtons && supportButtons.length) {
-      supportButtons.forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          trackEvent('support_open', {
-            source: 'landing',
-            lang: currentLang
-          });
-        });
-      });
-    }
-
-    // 3) Кнопка "Купить PRO-версию" под телефоном
-    var buyProBtn = document.querySelector('[data-role="buy-pro"]');
-    if (buyProBtn) {
-      buyProBtn.addEventListener('click', function () {
-        trackEvent('buy_pro_click', {
-          location: 'hero',
-          lang: currentLang
-        });
-      });
-    }
-
-    // 4) Клики по плашкам доната в спойлере (Monobank / PayPal)
-    var monoLink = document.querySelector('[data-dc="mono"]');
-    if (monoLink) {
-      monoLink.addEventListener('click', function () {
-        trackEvent('donate_click', {
-          method: 'monobank',
-          lang: currentLang
-        });
-      });
-    }
-
-    var paypalLink = document.querySelector('[data-dc="paypal"]');
-    if (paypalLink) {
-      paypalLink.addEventListener('click', function () {
-        trackEvent('donate_click', {
-          method: 'paypal',
-          lang: currentLang
-        });
-      });
-    }
-
-    // 5) Шеринг (Telegram / X / Facebook / LinkedIn)
-    var shareLinks = document.querySelectorAll('.share-buttons a');
-    if (shareLinks && shareLinks.length) {
-      shareLinks.forEach(function (link) {
-        link.addEventListener('click', function () {
-          var label = (link.textContent || '').trim();
-          trackEvent('share_click', {
-            platform: label,   // например "Telegram", "Twitter / X"
-            lang: currentLang
-          });
-        });
-      });
-    }
-
-    // 6) Клики по плашкам стор (Google Play / App Store)
-    var googleBadge = document.querySelector('.store-badge--google');
-    if (googleBadge) {
-      googleBadge.addEventListener('click', function () {
-        trackEvent('store_badge_click', {
-          store: 'google_play',
-          lang: currentLang
-        });
-      });
-    }
-
-    var appleBadge = document.querySelector('.store-badge--apple');
-    if (appleBadge) {
-      appleBadge.addEventListener('click', function () {
-        trackEvent('store_badge_click', {
-          store: 'app_store',
-          lang: currentLang
-        });
-      });
-    }
-  }
-
-  // Запускаем навешивание обработчиков (скрипт подключён с defer, DOM уже есть)
-  setupAnalyticsEvents();
-  
 })();

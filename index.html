@@ -230,23 +230,25 @@
     </section>
 
     <!-- SCREENS -->
+        <!-- SCREENS -->
     <section id="screens" class="section">
       <div class="container">
-        <h2 data-i18n="screens.title">Интерфейс</h2>
+        <h2 data-i18n="screens.title">Интерфейс тренажёра</h2>
         <p class="section-lead" data-i18n="screens.lead">
-          <span class="brand-word">MOYAMOVA</span> проектирован в первую очередь как мобильный тренажёр. Один экран — одна карточка — одно решение.
+          <span class="brand-word">MOYAMOVA</span> — чистый тренажёр без лишних разделов и ленты достижений. Только вы, карточки со словами и инструменты, которые помогают учиться каждый день.
         </p>
 
         <div class="screens-grid">
+          <!-- Блок 1: визуальные темы -->
           <div class="screen-item">
             <div class="screen-placeholder">
               <div class="screen-slider">
                 <div class="screen-slide is-active" data-index="0">
-                  <img src="./img/screen-light.jpg" alt="Светлая тема MOYAMOVA" class="screen-slide-img" />
+                  <img src="./img/screen-light.jpg" alt="Интерфейс MOYAMOVA в светлой теме" class="screen-slide-img" />
                   <span class="screen-badge" data-i18n="screens.light.label">Светлая тема</span>
                 </div>
                 <div class="screen-slide" data-index="1">
-                  <img src="./img/screen-dark.jpg" alt="Тёмная тема MOYAMOVA" class="screen-slide-img" />
+                  <img src="./img/screen-dark.jpg" alt="Интерфейс MOYAMOVA в тёмной теме" class="screen-slide-img" />
                   <span class="screen-badge" data-i18n="screens.dark.label">Тёмная тема</span>
                 </div>
                 <div class="screen-dots">
@@ -256,66 +258,182 @@
               </div>
             </div>
             <p data-i18n="screens.themes.text">
-              Светлая и тёмная темы. Тренажёр автоматически подстраивается под системные настройки, а при желании тему можно сменить вручную.
+              Адаптивный интерфейс под светлую и тёмную темы. Тренажёр удобно использовать на телефоне, планшете и ноутбуке — днём и вечером.
             </p>
           </div>
 
-          <!--<div class="screen-item">
-            <div class="screen-placeholder text-only">
-              <span data-i18n="screens.card2.title">Статистика внутри тренажёра</span>
-            </div>
-            <p data-i18n="screens.card2.text">
-              Смотрите, сколько слов вы повторили и выучили за день и за последние недели.
-            </p>
-          </div> -->
-
+          <!-- Блок 2: словари, избранное, ошибки -->
           <div class="screen-item">
             <div class="screen-placeholder">
               <div class="screen-slider screen-slider-small" data-slider="features">
                 <div class="screen-slide is-active" data-index="0">
-                  <img src="./img/screen-dicts-ru.jpg" alt="Списки словарей по частям речи" class="screen-slide-img" />
+                  <img src="./img/screen-dicts-ru.jpg" alt="Список словарей и наборов MOYAMOVA" class="screen-slide-img" />
                   <span class="screen-badge" data-i18n="screens.features.dicts.label">Словари</span>
                 </div>
                 <div class="screen-slide" data-index="1">
-                  <img src="./img/screen-examples-ru.jpg" alt="Примеры предложений и озвучка слова" class="screen-slide-img" />
-                  <span class="screen-badge" data-i18n="screens.features.examples.label">Примеры и озвучка</span>
+                  <img src="./img/screen-favorites-ru.jpg" alt="Список избранных слов MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.features.fav.label">Избранное</span>
+                </div>
+                <div class="screen-slide" data-index="2">
+                  <img src="./img/screen-errors-ru.jpg" alt="Список сложных слов и ошибок MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.features.errors.label">Мои ошибки</span>
                 </div>
                 <div class="screen-dots">
                   <button class="screen-dot is-active" data-index="0" aria-label="Словари"></button>
-                  <button class="screen-dot" data-index="1" aria-label="Примеры и озвучка"></button>
+                  <button class="screen-dot" data-index="1" aria-label="Избранное"></button>
+                  <button class="screen-dot" data-index="2" aria-label="Мои ошибки"></button>
                 </div>
               </div>
             </div>
-            <p data-i18n="screens.card4.text">
-              Дополнительные функции <span class="brand-word">MOYAMOVA</span>: отдельные словари, живые примеры к словам, озвучка и другие опции для удобных тренировок.
+            <p data-i18n="screens.card2.text">
+              Словари разбиты по категориям и частям речи, важные слова можно добавлять в избранное, а сложные автоматически попадают в список ошибок для отдельного повтора.
             </p>
           </div>
+
+          <!-- Блок 3: мелкие плюшки функционала -->
           <div class="screen-item">
             <div class="screen-placeholder">
-              <div class="screen-slider screen-slider-small" data-slider="sets">
+              <div class="screen-slider screen-slider-small" data-slider="perks">
                 <div class="screen-slide is-active" data-index="0">
-                  <img src="./img/screen-errors-ru.jpg" alt="Список ошибок по частям речи" class="screen-slide-img" />
-                  <span class="screen-badge" data-i18n="screens.errors.label">Мои ошибки</span>
+                  <img src="./img/screen-audio-ru.jpg" alt="Озвучка слов и примеров в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.perks.audio.label">Озвучка</span>
                 </div>
                 <div class="screen-slide" data-index="1">
-                  <img src="./img/screen-favorites-ru.jpg" alt="Список избранных слов по частям речи" class="screen-slide-img" />
-                  <span class="screen-badge" data-i18n="screens.fav.label">Избранное</span>
+                  <img src="./img/screen-examples-ru.jpg" alt="Примеры предложений к словам в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.perks.examples.label">Примеры</span>
+                </div>
+                <div class="screen-slide" data-index="2">
+                  <img src="./img/screen-synonyms-ru.jpg" alt="Список синонимов к слову в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.perks.synonyms.label">Синонимы</span>
+                </div>
+                <div class="screen-slide" data-index="3">
+                  <img src="./img/screen-antonyms-ru.jpg" alt="Список антонимов к слову в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.perks.antonyms.label">Антонимы</span>
+                </div>
+                <div class="screen-slide" data-index="4">
+                  <img src="./img/screen-export-ru.jpg" alt="Экспорт и импорт словарей в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="screens.perks.export.label">Экспорт и импорт</span>
                 </div>
                 <div class="screen-dots">
-                  <button class="screen-dot is-active" data-index="0" aria-label="Мои ошибки"></button>
-                  <button class="screen-dot" data-index="1" aria-label="Избранное"></button>
+                  <button class="screen-dot is-active" data-index="0" aria-label="Озвучка"></button>
+                  <button class="screen-dot" data-index="1" aria-label="Примеры"></button>
+                  <button class="screen-dot" data-index="2" aria-label="Синонимы"></button>
+                  <button class="screen-dot" data-index="3" aria-label="Антонимы"></button>
+                  <button class="screen-dot" data-index="4" aria-label="Экспорт и импорт"></button>
                 </div>
               </div>
             </div>
             <p data-i18n="screens.card3.text">
-              Можно отдельно повторять сложные слова или держать компактный набор избранного под быстрый прогон.
+              Озвучка слов и примеров, живые примеры в предложениях, синонимы и антонимы, а также экспорт и импорт словарей помогают учиться в своём ритме и не терять прогресс.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
+    <!-- PRO -->
+    <section id="pro" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="pro.title">PRO-режим: разовая покупка навсегда</h2>
+        <p class="section-lead" data-i18n="pro.lead">
+          Базовый тренажёр остаётся бесплатным. PRO-опции покупаются один раз за 9.99&nbsp;€ и остаются с вами навсегда — без подписок, ежемесячных платежей и рекламы.
+        </p>
+
+        <div class="grid-3">
+          <div class="feature-card">
+            <h3 data-i18n="pro.point1.title">Честная модель оплаты</h3>
+            <p data-i18n="pro.point1.text">
+              Вы один раз оплачиваете PRO за 9.99&nbsp;€. Никаких автосписаний, подписок и “сюрпризов” в конце месяца.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 data-i18n="pro.point2.title">Расширенные возможности</h3>
+            <p data-i18n="pro.point2.text">
+              PRO открывает дополнительные опции для более удобного и продвинутого обучения. Базовый тренажёр при этом остаётся бесплатным.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3 data-i18n="pro.point3.title">Простая активация</h3>
+            <p data-i18n="pro.point3.text">
+              Покупка и активация происходят прямо внутри тренажёра. Оплата через PayPal, после чего PRO включается автоматически.
+            </p>
+          </div>
+        </div>
+
+        <div class="screens-grid pro-flow">
+          <div class="screen-item">
+            <div class="screen-placeholder">
+              <div class="screen-slider screen-slider-small" data-slider="pro">
+                <div class="screen-slide is-active" data-index="0">
+                  <img src="./img/pro-step-1.jpg" alt="Где найти кнопку покупки PRO в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="pro.step1.label">Где нажать</span>
+                </div>
+                <div class="screen-slide" data-index="1">
+                  <img src="./img/pro-step-2.jpg" alt="Окно оплаты PRO через PayPal" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="pro.step2.label">Оплата</span>
+                </div>
+                <div class="screen-slide" data-index="2">
+                  <img src="./img/pro-step-3.jpg" alt="Активированный PRO в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="pro.step3.label">Активация</span>
+                </div>
+                <div class="screen-dots">
+                  <button class="screen-dot is-active" data-index="0" aria-label="Где нажать"></button>
+                  <button class="screen-dot" data-index="1" aria-label="Оплата"></button>
+                  <button class="screen-dot" data-index="2" aria-label="Активация"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-i18n="pro.cta">Узнать о PRO внутри тренажёра</button>
+          <p class="hero-note" data-i18n="pro.note">* PRO покупается один раз за 9.99&nbsp;€ — без подписок и рекламы</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- UPDATES -->
+    <section id="updates" class="section">
+      <div class="container">
+        <h2 data-i18n="updates.title">Что нового в MOYAMOVA</h2>
+        <p class="section-lead" data-i18n="updates.lead">
+          Здесь мы показываем свежие изменения: новые словари, языки, функции и улучшения тренажёра.
+        </p>
+
+        <div class="screens-grid">
+          <div class="screen-item">
+            <div class="screen-placeholder">
+              <div class="screen-slider screen-slider-small" data-slider="updates">
+                <div class="screen-slide is-active" data-index="0">
+                  <img src="./img/update-1.jpg" alt="Новый словарь в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="updates.slide1.label">Новый словарь</span>
+                </div>
+                <div class="screen-slide" data-index="1">
+                  <img src="./img/update-2.jpg" alt="Новая функция в MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="updates.slide2.label">Новая функция</span>
+                </div>
+                <div class="screen-slide" data-index="2">
+                  <img src="./img/update-3.jpg" alt="Улучшения интерфейса MOYAMOVA" class="screen-slide-img" />
+                  <span class="screen-badge" data-i18n="updates.slide3.label">Улучшения</span>
+                </div>
+                <div class="screen-dots">
+                  <button class="screen-dot is-active" data-index="0" aria-label="Новый словарь"></button>
+                  <button class="screen-dot" data-index="1" aria-label="Новая функция"></button>
+                  <button class="screen-dot" data-index="2" aria-label="Улучшения"></button>
+                </div>
+              </div>
+            </div>
+            <p data-i18n="updates.text">
+              При каждом крупном обновлении мы добавляем сюда короткую заметку и скрин. Так можно быстро понять, что поменялось в тренажёре.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
     
     
 <section id="faq" class="section section-alt">

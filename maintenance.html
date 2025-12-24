@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>MOYAMOVA</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070816" />
+  <meta name="robots" content="noindex,nofollow" />
+
+  <link rel="icon" type="image/jpeg" href="./favicon.jpeg" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body class="page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="./img/logo-icon.png" alt="MOYAMOVA logo" class="logo-img" />
+        <span class="logo-text">MOYAMOVA</span>
+      </a>
+
+      <div class="lang-switch" aria-label="Language switcher">
+        <button class="lang-btn is-active" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="uk">UA</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="maintenance-card">
+          <p class="badge" id="mm-badge"></p>
+          <h1 class="maintenance-title" id="mm-title"></h1>
+          <p class="maintenance-subtitle" id="mm-subtitle"></p>
+          <p class="maintenance-text" id="mm-text"></p>
+
+          <a href="https://MOYAMOVA.online/"
+             class="btn btn-primary maintenance-cta"
+             data-role="start-trainer"
+             id="mm-button">
+          </a>
+
+          <p class="maintenance-note" id="mm-note"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© <span id="year"></span> MOYAMOVA</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const LANG_STORAGE_KEY = 'MOYAMOVA_lang';
+
+      const messages = {
+        ru: {
+          badge: 'Техработы',
+          title: 'Вы можете продолжать заниматься, даже пока мы обновляем сайт.',
+          subtitle: '',
+          text: 'Мы временно спрятали основную страницу, чтобы спокойно обновить контент и интерфейс. Сам тренажёр слов продолжает работать как обычно.',
+          button: 'Запустить тренажёр',
+          note: 'Тренажёр откроется в отдельном окне. На телефоне он запустится на весь экран.',
+          htmlLang: 'ru'
+        },
+        uk: {
+          badge: 'Техроботи',
+          title: 'Ви можете продовжувати займатися, навіть поки ми оновлюємо сайт.',
+          subtitle: '',
+          text: 'Ми тимчасово приховали основну сторінку, щоб спокійно оновити контент і інтерфейс. Сам тренажер слів продовжує працювати як зазвичай.',
+          button: 'Запустити тренажер',
+          note: 'Тренажер відкриється в окремому вікні. На телефоні він запуститься на весь екран.',
+          htmlLang: 'uk'
+        }
+      };
+
+      function detectInitialLang() {
+        try {
+          const stored = localStorage.getItem(LANG_STORAGE_KEY);
+          if (stored && messages[stored]) return stored;
+        } catch (e) {}
+
+        const navLang = (navigator.language || (navigator.languages && navigator.languages[0]) || 'ru')
+          .toLowerCase()
+          .slice(0, 2);
+
+        if (navLang === 'uk') return 'uk';
+        return 'ru';
+      }
+
+      function applyLang(lang) {
+        const dict = messages[lang] || messages.ru;
+
+        document.getElementById('mm-badge').textContent = dict.badge;
+        document.getElementById('mm-title').textContent = dict.title;
+        document.getElementById('mm-subtitle').textContent = dict.subtitle;
+        document.getElementById('mm-text').textContent = dict.text;
+        document.getElementById('mm-button').textContent = dict.button;
+        document.getElementById('mm-note').textContent = dict.note;
+
+        document.documentElement.lang = dict.htmlLang;
+
+        const buttons = document.querySelectorAll('.lang-btn');
+        buttons.forEach(function (btn) {
+          btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
+        });
+      }
+
+      const yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      let currentLang = detectInitialLang();
+      applyLang(currentLang);
+
+      const langSwitch = document.querySelector('.lang-switch');
+      if (langSwitch) {
+        langSwitch.addEventListener('click', function (e) {
+          const btn = e.target.closest('.lang-btn');
+          if (!btn) return;
+          const lang = btn.getAttribute('data-lang');
+          if (!lang || !(lang in messages)) return;
+          try {
+            localStorage.setItem(LANG_STORAGE_KEY, lang);
+          } catch (e) {}
+          applyLang(lang);
+        });
+      }
+
+      const startBtn = document.querySelector('[data-role="start-trainer"]');
+      if (startBtn) {
+        startBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetUrl = startBtn.href;
+
+          const isMobile =
+            /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+            window.innerWidth < 768;
+
+          if (isMobile) {
+            window.location.href = targetUrl;
+          } else {
+            const w = 430;
+            const h = 800;
+            const left = Math.round(window.screenX + (window.innerWidth - w) / 2);
+            const top = Math.round(window.screenY + (window.innerHeight - h) / 2);
+
+            window.open(
+              targetUrl,
+              'MOYAMOVATrainer',
+              'width=' +
+                w +
+                ',height=' +
+                h +
+                ',left=' +
+                left +
+                ',top=' +
+                top +
+                ',resizable=yes,scrollbars=yes,status=no'
+            );
+          }
+        });
+      }
+    })();
+  </script>
+
+  <style>
+    body.page {
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* <-- добавили вертикальное центрирование */
+    }
+
+    .maintenance-card {
+      max-width: 520px;
+      margin: 0 auto; /* <-- убрали большой верхний отступ */
+      padding: 24px 22px 20px;
+      border-radius: var(--radius-lg);
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.02), var(--card));
+      box-shadow: var(--shadow-strong);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .maintenance-card .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .maintenance-title {
+      font-size: 24px;
+      margin: 0 0 8px;
+    }
+
+    .maintenance-subtitle {
+      margin: 0 0 12px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .maintenance-text {
+      margin: 0 0 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .maintenance-cta {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .maintenance-note {
+      margin: 0;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .site-footer {
+      padding: 16px 0 24px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 600px) {
+      .maintenance-card {
+        padding: 20px 16px 16px;
+      }
+
+      .maintenance-title {
+        font-size: 21px;
+      }
+    }
+    /* Центруем только бейдж "Техработы" и заголовок */
+.maintenance-card .badge {
+  text-align: center;
+}
+
+/* Чтобы сам бейдж был по центру, а не прилипал к левому краю */
+.maintenance-card .badge {
+  display: block;
+  margin: 0 auto 10px; /* по центру + отступ снизу */
+}
+    /* Делаем текст кнопки белым именно в заглушке */
+.maintenance-card .maintenance-cta {
+  color: #ffffff !important;
+}
+  </style>
+</body>
+</html>

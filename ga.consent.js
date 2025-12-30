@@ -23,13 +23,13 @@
 
   // По умолчанию — полный отказ (EU/CH-friendly)
   gtag('consent', 'default', {
-    ad_storage: 'denied',
-    analytics_storage: 'denied',
-    ad_user_data: 'denied',
-    ad_personalization: 'denied',
-    functionality_storage: 'denied',
+    ad_storage: 'granted',
+    analytics_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    functionality_storage: 'granted',
     security_storage: 'granted',
-    wait_for_update: 500
+    wait_for_update: 0
   });
 
   function loadGA() {
@@ -164,8 +164,9 @@
       applyConsent(false);
     } else {
       // выбора ещё не было:
-      // оставляем default=denied и ничего не показываем —
-      // мастер сам спросит и вызовет GAConsent.applyChoice(...)
+      // упрощённый режим: считаем, что согласие дано по умолчанию
+      saveChoice(true);
+      applyConsent(true);
     }
   }
 

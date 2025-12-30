@@ -97,6 +97,8 @@
         <a class="footer-link" id="footer-terms" href="#"></a>
         <span class="footer-sep">•</span>
         <a class="footer-link" id="footer-impressum" href="#"></a>
+        <span class="footer-sep">•</span>
+        <a class="footer-link" id="footer-support" href="#"></a>
       </nav>
     </div>
   </footer>
@@ -202,15 +204,18 @@
         const privacy = document.getElementById('footer-privacy');
         const terms = document.getElementById('footer-terms');
         const impressum = document.getElementById('footer-impressum');
+        const support = document.getElementById('footer-support');
+
         privacy.textContent = dict.footerPrivacy;
         terms.textContent = dict.footerTerms;
         impressum.textContent = dict.footerImpressum;
+        if (support) support.textContent = dict.footerSupport;
 
         privacy.href = './legal/privacy.' + dict.legalSuffix + '.html';
         terms.href = './legal/terms.' + dict.legalSuffix + '.html';
         impressum.href = './legal/impressum.' + dict.legalSuffix + '.html';
-
-        document.documentElement.lang = dict.htmlLang;
+        if (support) support.href = VIBER_URL;
+document.documentElement.lang = dict.htmlLang;
 
         const buttons = document.querySelectorAll('.lang-btn');
         buttons.forEach(function (btn) {

@@ -28,12 +28,56 @@
 
   <link rel="icon" type="image/jpeg" href="./favicon.jpeg" />
   <link rel="stylesheet" href="./css/main.css" />
+
   <style>
-    .maintenance-title,
-    .maintenance-subtitle-title{
-      text-align:center;
+    /* page overrides */
+    .maintenance-title, .maintenance-subtitle-title { text-align: center; }
+    .header-badge{
+      margin-left: 10px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 700;
+      color: #0b1020;
+      background: rgba(77, 182, 255, .35);
+      border: 1px solid rgba(77, 182, 255, .55);
+      white-space: nowrap;
     }
+    .screenshots{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 14px 0 8px;
+    }
+    .shot{ margin: 0; }
+    .shot-img{
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.12);
+      display:block;
+    }
+    .shot-cap{
+      margin-top: 8px;
+      font-size: 12px;
+      opacity: .75;
+      text-align: center;
+    }
+    @media (max-width: 640px){
+      .screenshots{ grid-template-columns: 1fr; }
+    }
+    .site-footer .footer-nav{
+      font-size: 12px;
+      opacity: .8;
+      display:flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content:center;
+    }
+    .site-footer .footer-sep{ opacity:.6; }
   </style>
+
 </head>
 <body class="page">
   <header class="site-header">
@@ -44,6 +88,7 @@
       </a>
 
       <div class="lang-switch" aria-label="Language switcher">
+        <span class="header-badge" id="mm-badge" aria-label="Ранний доступ"></span>
         <button class="lang-btn is-active" data-lang="ru" type="button">RU</button>
         <button class="lang-btn" data-lang="uk" type="button">UA</button>
       </div>
@@ -56,9 +101,22 @@
         <div class="placeholder-stack">
           <!-- Block 1: About -->
           <article class="maintenance-card">
+            <p class="badge" id="mm-badge"></p>
             <h1 class="maintenance-title" id="mm-title"></h1>
             <p class="maintenance-text" id="mm-about1"></p>
             <p class="maintenance-text" id="mm-about2"></p>
+
+            
+            <div class="screenshots" aria-label="Screenshots">
+              <figure class="shot">
+                <img id="mm-shot-light" class="shot-img" src="./img/screens/ru-light.jpeg" alt="Скриншот (светлая тема)" loading="lazy" />
+                <figcaption class="shot-cap" id="mm-shot-light-cap"></figcaption>
+              </figure>
+              <figure class="shot">
+                <img id="mm-shot-dark" class="shot-img" src="./img/screens/ru-dark.jpeg" alt="Скриншот (тёмная тема)" loading="lazy" />
+                <figcaption class="shot-cap" id="mm-shot-dark-cap"></figcaption>
+              </figure>
+            </div>
 
             <div class="chips" aria-label="Key points">
               <span class="chip" id="chip1"></span>
@@ -70,7 +128,7 @@
             </div>
           </article>
 
-          <!-- Block 2: Start -->
+          <!-- Block 3: Start -->
           <article class="maintenance-card maintenance-card--alt">
             <h2 class="maintenance-subtitle-title" id="mm-startTitle"></h2>
             <p class="maintenance-text" id="mm-startText"></p>
@@ -83,7 +141,8 @@
 
             <p class="maintenance-note" id="mm-startNote"></p>
           </article>
-        <!-- Block 3: Feedback / Beta -->
+
+          <!-- Block 2: Feedback / Beta -->
           <article class="maintenance-card maintenance-card--alt">
             <h2 class="maintenance-subtitle-title" id="mm-betaTitle"></h2>
             <p class="maintenance-text" id="mm-beta1"></p>
@@ -98,8 +157,7 @@
 
             <p class="maintenance-note" id="mm-betaNote"></p>
           </article>
-
-          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -110,11 +168,11 @@
 
       <nav class="footer-links" aria-label="Legal">
         <a class="footer-link" id="footer-privacy" href="#"></a>
-        <span class="footer-sep">•</span>
+        <span class="footer-sep"> | </span>
         <a class="footer-link" id="footer-terms" href="#"></a>
-        <span class="footer-sep">•</span>
+        <span class="footer-sep"> | </span>
         <a class="footer-link" id="footer-impressum" href="#"></a>
-        <span class="footer-sep">•</span>
+        <span class="footer-sep"> | </span>
         <a class="footer-link" id="footer-support" href="#"></a>
       </nav>
     </div>
@@ -127,13 +185,18 @@
 
       const messages = {
         ru: {
-title: 'MOYAMOVA — тренажёр иностранных слов',
-          about1: 'MoyaMova — простое приложение для запоминания иностранных слов. Сейчас доступны тренировки по немецкому и английскому на основе словарей из 2500+ слов уровней A1–B2.',
-          about2: 'Приложение находится в ранней версии: словари, упражнения и интерфейс постепенно дорабатываются. Оно полностью бесплатное, без рекламы, не собирает данные и работает офлайн.',
+          badge: 'Ранний доступ',
+          title: 'MOYAMOVA — тренажёр иностранных слов',
+          about1: 'MOYAMOWA — простое приложение для запоминания иностранных слов. Сейчас доступны тренировки по немецкому и английскому на основе словарей из 2500+ слов уровней A1–B2.',
+          about2: 'Приложение бесплатное, не содержит рекламы, не собирает данные и работает офлайн. Проект развивается постепенно — обратная связь пользователей напрямую влияет на то, каким он станет дальше.',
+          shotLightCap: 'Светлая тема',
+          shotDarkCap: 'Тёмная тема',
+          shotLightCap: 'Світла тема',
+          shotDarkCap: 'Темна тема',
           chips: ['DE / EN', '2500+ слов', 'A1–B2', 'Бесплатно', 'Офлайн', 'Без сбора данных'],
 
           startTitle: 'Запустить тренажёр',
-          startText: 'Тренажёр можно открыть прямо в браузере. На компьютере он откроется в отдельном небольшом окне, на телефоне — на весь экран.',
+          startText: 'Приложение находится в ранней версии: словари, упражнения и интерфейс постепенно дорабатываются. Оно полностью бесплатное, без рекламы, не собирает данные и работает офлайн.',
           startBtn: 'Запустить тренажёр',
           startNote: 'Если окно не открылось, проверьте блокировщик всплывающих окон или попробуйте другой браузер.',
 
@@ -157,13 +220,14 @@ title: 'MOYAMOVA — тренажёр иностранных слов',
           legalSuffix: 'ru'
         },
         uk: {
-title: 'MOYAMOVA — тренажер іноземних слів',
-          about1: 'MoyaMova — простий застосунок для запам’ятовування іноземних слів. Зараз доступні тренування з німецької та англійської на основі словників із 2500+ слів рівнів A1–B2.',
-          about2: 'Застосунок у ранній версії: словники, вправи та інтерфейс поступово допрацьовуються. Він повністю безкоштовний, без реклами, не збирає дані й працює офлайн.',
+          badge: 'Ранній доступ',
+          title: 'MOYAMOVA — тренажер іноземних слів',
+          about1: 'MOYAMOWA — простий застосунок для запам’ятовування іноземних слів. Зараз доступні тренування з німецької та англійської на основі словників із 2500+ слів рівнів A1–B2.',
+          about2: 'Застосунок безкоштовний, без реклами, не збирає дані та працює офлайн. Проєкт розвивається поступово — ваш фідбек напряму впливає на те, яким він стане далі.',
           chips: ['DE / EN', '2500+ слів', 'A1–B2', 'Безкоштовно', 'Офлайн', 'Без збору даних'],
 
           startTitle: 'Запустити тренажер',
-          startText: 'Тренажер можна відкрити прямо в браузері. На комп’ютері він відкриється в окремому невеликому вікні, на телефоні — на весь екран.',
+          startText: 'Застосунок у ранній версії: словники, вправи та інтерфейс поступово допрацьовуються. Він повністю безкоштовний, без реклами, не збирає дані та працює офлайн.',
           startBtn: 'Запустити тренажер',
           startNote: 'Якщо вікно не відкрилось, перевірте блокування спливаючих вікон або спробуйте інший браузер.',
 
@@ -204,9 +268,23 @@ title: 'MOYAMOVA — тренажер іноземних слів',
 
       function applyLang(lang) {
         const dict = messages[lang] || messages.ru;
-document.getElementById('mm-title').textContent = dict.title;
+
+        document.getElementById('mm-badge').textContent = dict.badge;
+        document.getElementById('mm-title').textContent = dict.title;
         document.getElementById('mm-about1').textContent = dict.about1;
         document.getElementById('mm-about2').textContent = dict.about2;
+
+        // screenshots
+        const lightImg = document.getElementById('mm-shot-light');
+        const darkImg  = document.getElementById('mm-shot-dark');
+        if (lightImg) lightImg.src = (lang === 'uk') ? './img/screens/uk-light.jpeg' : './img/screens/ru-light.jpeg';
+        if (darkImg)  darkImg.src  = (lang === 'uk') ? './img/screens/uk-dark.jpeg'  : './img/screens/ru-dark.jpeg';
+
+        const lightCap = document.getElementById('mm-shot-light-cap');
+        const darkCap  = document.getElementById('mm-shot-dark-cap');
+        if (lightCap) lightCap.textContent = dict.shotLightCap || '';
+        if (darkCap)  darkCap.textContent  = dict.shotDarkCap || '';
+
 
         const chipIds = ['chip1','chip2','chip3','chip4','chip5','chip6'];
         chipIds.forEach((id, idx) => {

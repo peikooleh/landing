@@ -77,6 +77,7 @@
     .site-footer .footer-sep{ opacity:.6; }
   </style>
 
+  <script src="./ga.consent.js" defer></script>
 </head>
 <body class="page">
   <header class="site-header">
@@ -564,5 +565,19 @@ const buttons = document.querySelectorAll('.lang-btn');
       }
     }
   </style>
+
+  <!-- Analytics consent (shown only if user hasn't chosen yet) -->
+  <div class="mm-consent" id="mm-consent" style="display:none" role="dialog" aria-live="polite">
+    <div class="mm-consent__row">
+      <p class="mm-consent__text" id="mm-consentText">
+        Мы используем анонимную аналитику, чтобы понять, как улучшать лендинг и путь до тренажёра. Это необязательно.
+      </p>
+      <div class="mm-consent__actions">
+        <button class="btn btn-primary" type="button" id="mm-consentYes">Разрешить</button>
+        <button class="btn btn-secondary" type="button" id="mm-consentNo">Отказаться</button>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>

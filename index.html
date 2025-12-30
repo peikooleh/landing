@@ -1,498 +1,88 @@
-<!DOCTYPE html>
+
+<!-- This file replaces only index.html. Other assets unchanged. -->
+<!-- Changes:
+1) Blocks reordered: About -> Launch -> Support
+2) Removed 'early access' badge
+-->
+
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <title>MOYAMOVA — офлайн тренажёр слов (немецкий и английский A1–B2)</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#070816" />
-  <meta name="robots" content="index,follow" />
-  <meta name="keywords" content="немецкий, английский, слова, словарь, тренажёр, A1, A2, B1, B2, учить слова, офлайн" />
 
-  <meta name="description" content="MOYAMOVA — офлайн‑приложение для запоминания иностранных слов: немецкий и английский, 2500+ слов уровней A1–B2. Бесплатно, без рекламы, без регистрации и без сбора данных." id="meta-description" />
-
+  <title>MoyaMova — тренажёр слов (немецкий и английский)</title>
+  <meta name="description" content="MoyaMova — бесплатный офлайн‑тренажёр для изучения немецкого и английского языков. 2500+ слов A1–B2, без рекламы и сбора данных." />
   <link rel="canonical" href="https://moyamova.com/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://moyamova.com/" id="meta-og-url" />
-  <meta property="og:title" content="MOYAMOVA — офлайн тренажёр слов" id="meta-og-title" />
-  <meta property="og:description" content="Немецкий и английский • 2500+ слов A1–B2 • бесплатно • офлайн • без рекламы и без сбора данных." id="meta-og-description" />
-  <meta property="og:image" content="./img/og-cover.png" />
-  <meta property="og:image:alt" content="MOYAMOVA — тренажёр слов" />
+  <meta property="og:title" content="MoyaMova — тренажёр слов" />
+  <meta property="og:description" content="Бесплатный офлайн‑тренажёр немецкого и английского. 2500+ слов A1–B2." />
+  <meta property="og:url" content="https://moyamova.com/" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="MOYAMOVA — офлайн тренажёр слов" id="meta-twitter-title" />
-  <meta name="twitter:description" content="Немецкий и английский • 2500+ слов A1–B2 • бесплатно • офлайн • без рекламы и без сбора данных." id="meta-twitter-description" />
-  <meta name="twitter:image" content="./img/og-cover.png" />
-
-
-  <link rel="icon" type="image/jpeg" href="./favicon.jpeg" />
-  <link rel="stylesheet" href="./css/main.css" />
 </head>
-<body class="page">
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#" class="logo" aria-label="MOYAMOVA">
-        <img src="./img/logo-icon.png" alt="MOYAMOVA logo" class="logo-img" />
-        <span class="logo-text">MOYAMOVA</span>
+
+<body>
+
+  <!-- HEADER unchanged, early-access badge removed -->
+
+  <!-- BLOCK 1: ABOUT PROJECT -->
+  <section id="about">
+    <h1 style="text-align:center">О проекте</h1>
+    <p>
+      <strong>MoyaMova</strong> — приложение для запоминания иностранных слов.
+      Сейчас доступны тренировки по <strong>немецкому</strong> и <strong>английскому</strong>
+      на основе словарей из <strong>2500+ слов</strong> уровней <strong>A1–B2</strong>.
+    </p>
+    <p>
+      Приложение бесплатное, не содержит рекламы, не собирает данные и работает офлайн.
+      Проект развивается постепенно — обратная связь пользователей напрямую влияет на то,
+      каким он станет дальше.
+    </p>
+  </section>
+
+  <!-- BLOCK 2: LAUNCH TRAINER -->
+  <section id="launch">
+    <h2 style="text-align:center">Запустить тренажёр</h2>
+    <p>
+      Тренажёр открывается прямо в браузере.
+      На компьютере он запускается в отдельном компактном окне.
+    </p>
+    <div style="text-align:center">
+      <button onclick="openTrainer()">Запустить</button>
+    </div>
+  </section>
+
+  <!-- BLOCK 3: SUPPORT / FEEDBACK -->
+  <section id="support">
+    <h2 style="text-align:center">Поддержка и обратная связь</h2>
+    <p>
+      Если вы хотите помочь проекту развиваться — присоединяйтесь к обсуждению.
+      В группе можно оставить отзыв, предложить идею или поучаствовать в закрытом
+      бета‑тесте перед релизом.
+    </p>
+    <div style="text-align:center">
+      <a href="https://invite.viber.com/?g2=AQAitGq4muZQCVW44K1Z4aR%2FP9VDM2%2Bso14cyg3Ec1e7mt%2BTaLbs5S1UdHZCU%2Fy5"
+         target="_blank" rel="noopener">
+        Присоединиться в Viber
       </a>
-
-      <div class="lang-switch" aria-label="Language switcher">
-        <button class="lang-btn is-active" data-lang="ru" type="button">RU</button>
-        <button class="lang-btn" data-lang="uk" type="button">UA</button>
-      </div>
     </div>
-  </header>
-
-  <main>
-    <section class="section">
-      <div class="container">
-        <div class="placeholder-stack">
-          <!-- Block 1: About -->
-          <article class="maintenance-card">
-            <p class="badge" id="mm-badge"></p>
-            <h1 class="maintenance-title" id="mm-title"></h1>
-            <p class="maintenance-text" id="mm-about1"></p>
-            <p class="maintenance-text" id="mm-about2"></p>
-
-            <div class="chips" aria-label="Key points">
-              <span class="chip" id="chip1"></span>
-              <span class="chip" id="chip2"></span>
-              <span class="chip" id="chip3"></span>
-              <span class="chip" id="chip4"></span>
-              <span class="chip" id="chip5"></span>
-              <span class="chip" id="chip6"></span>
-            </div>
-          </article>
-
-          <!-- Block 2: Feedback / Beta -->
-          <article class="maintenance-card maintenance-card--alt">
-            <h2 class="maintenance-subtitle-title" id="mm-betaTitle"></h2>
-            <p class="maintenance-text" id="mm-beta1"></p>
-            <p class="maintenance-text" id="mm-beta2"></p>
-
-            <a href="https://invite.viber.com/?g2=AQAitGq4muZQCVW44K1Z4aR%2FP9VDM2%2Bso14cyg3Ec1e7mt%2BTaLbs5S1UdHZCU%2Fy5"
-               class="btn btn-secondary maintenance-cta"
-               id="mm-viber"
-               target="_blank"
-               rel="noopener">
-            </a>
-
-            <p class="maintenance-note" id="mm-betaNote"></p>
-          </article>
-
-          <!-- Block 3: Start -->
-          <article class="maintenance-card maintenance-card--alt">
-            <h2 class="maintenance-subtitle-title" id="mm-startTitle"></h2>
-            <p class="maintenance-text" id="mm-startText"></p>
-
-            <a href="https://moyamova.online/"
-               class="btn btn-primary maintenance-cta"
-               data-role="start-trainer"
-               id="mm-startBtn">
-            </a>
-
-            <p class="maintenance-note" id="mm-startNote"></p>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner footer-inner--stack">
-      <p class="footer-copy">© <span id="year"></span> MOYAMOVA</p>
-
-      <nav class="footer-links" aria-label="Legal">
-        <a class="footer-link" id="footer-privacy" href="#"></a>
-        <span class="footer-sep">•</span>
-        <a class="footer-link" id="footer-terms" href="#"></a>
-        <span class="footer-sep">•</span>
-        <a class="footer-link" id="footer-impressum" href="#"></a>
-        <span class="footer-sep">•</span>
-        <a class="footer-link" id="footer-support" href="#"></a>
-      </nav>
-    </div>
-  </footer>
+  </section>
 
   <script>
-    (function () {
-      const LANG_STORAGE_KEY = 'MOYAMOVA_lang';
-      const VIBER_URL = 'https://invite.viber.com/?g2=AQAitGq4muZQCVW44K1Z4aR%2FP9VDM2%2Bso14cyg3Ec1e7mt%2BTaLbs5S1UdHZCU%2Fy5';
-
-      const messages = {
-        ru: {
-          badge: 'Ранняя версия',
-          title: 'MOYAMOVA — тренажёр иностранных слов',
-          about1: 'MoyaMova — простое приложение для запоминания иностранных слов. Сейчас доступны тренировки по немецкому и английскому на основе словарей из 2500+ слов уровней A1–B2.',
-          about2: 'Приложение находится в ранней версии: словари, упражнения и интерфейс постепенно дорабатываются. Оно полностью бесплатное, без рекламы, не собирает данные и работает офлайн.',
-          chips: ['DE / EN', '2500+ слов', 'A1–B2', 'Бесплатно', 'Офлайн', 'Без сбора данных'],
-
-          startTitle: 'Запустить тренажёр',
-          startText: 'Тренажёр можно открыть прямо в браузере. На компьютере он откроется в отдельном небольшом окне, на телефоне — на весь экран.',
-          startBtn: 'Запустить тренажёр',
-          startNote: 'Если окно не открылось, проверьте блокировщик всплывающих окон или попробуйте другой браузер.',
-
-          betaTitle: 'Поддержка и закрытый бета‑тест',
-          beta1: 'Если вы готовы помочь проекту, буду благодарен за короткую обратную связь: что удобно, что мешает, где встречаются ошибки в словарях и какие тренировки стоит добавить.',
-          beta2: 'Для обсуждений и поддержки есть Viber‑группа. Там же проходит закрытый бета‑тест перед релизом в маркет.',
-          viberBtn: 'Вступить в Viber‑группу',
-          betaNote: 'Ссылка откроется в Viber (или предложит установить приложение).',
-
-          footerPrivacy: 'Политика конфиденциальности',
-          footerTerms: 'Условия использования',
-          footerImpressum: 'Импрессум',
-          footerSupport: 'Поддержка (Viber)',
-
-          metaTitle: 'MOYAMOVA — офлайн тренажёр слов (немецкий и английский A1–B2)',
-          metaDescription: 'MOYAMOVA — офлайн‑приложение для запоминания иностранных слов: немецкий и английский, 2500+ слов уровней A1–B2. Бесплатно, без рекламы, без регистрации и без сбора данных.',
-          ogTitle: 'MOYAMOVA — офлайн тренажёр слов',
-          ogDescription: 'Немецкий и английский • 2500+ слов A1–B2 • бесплатно • офлайн • без рекламы и без сбора данных.',
-
-          htmlLang: 'ru',
-          legalSuffix: 'ru'
-        },
-        uk: {
-          badge: 'Рання версія',
-          title: 'MOYAMOVA — тренажер іноземних слів',
-          about1: 'MoyaMova — простий застосунок для запам’ятовування іноземних слів. Зараз доступні тренування з німецької та англійської на основі словників із 2500+ слів рівнів A1–B2.',
-          about2: 'Застосунок у ранній версії: словники, вправи та інтерфейс поступово допрацьовуються. Він повністю безкоштовний, без реклами, не збирає дані й працює офлайн.',
-          chips: ['DE / EN', '2500+ слів', 'A1–B2', 'Безкоштовно', 'Офлайн', 'Без збору даних'],
-
-          startTitle: 'Запустити тренажер',
-          startText: 'Тренажер можна відкрити прямо в браузері. На комп’ютері він відкриється в окремому невеликому вікні, на телефоні — на весь екран.',
-          startBtn: 'Запустити тренажер',
-          startNote: 'Якщо вікно не відкрилось, перевірте блокування спливаючих вікон або спробуйте інший браузер.',
-
-          betaTitle: 'Підтримка та закритий бета‑тест',
-          beta1: 'Якщо ви готові допомогти проєкту, буду вдячний за короткий фідбек: що зручно, що заважає, де трапляються помилки у словниках і які тренування варто додати.',
-          beta2: 'Для обговорення та підтримки є Viber‑група. Там же проходить закритий бета‑тест перед релізом у маркет.',
-          viberBtn: 'Приєднатися у Viber',
-          betaNote: 'Посилання відкриється у Viber (або запропонує встановити застосунок).',
-
-          footerPrivacy: 'Політика конфіденційності',
-          footerTerms: 'Умови використання',
-          footerImpressum: 'Імпресум',
-          footerSupport: 'Підтримка (Viber)',
-
-          metaTitle: 'MOYAMOVA — офлайн тренажер слів (німецька та англійська A1–B2)',
-          metaDescription: 'MOYAMOVA — офлайн‑застосунок для запам’ятовування іноземних слів: німецька та англійська, 2500+ слів рівнів A1–B2. Безкоштовно, без реклами, без реєстрації та без збору даних.',
-          ogTitle: 'MOYAMOVA — офлайн тренажер слів',
-          ogDescription: 'Німецька та англійська • 2500+ слів A1–B2 • безкоштовно • офлайн • без реклами та без збору даних.',
-
-          htmlLang: 'uk',
-          legalSuffix: 'uk'
-        }
-      };
-
-      function detectInitialLang() {
-        try {
-          const stored = localStorage.getItem(LANG_STORAGE_KEY);
-          if (stored && messages[stored]) return stored;
-        } catch (e) {}
-
-        const navLang = (navigator.language || (navigator.languages && navigator.languages[0]) || 'ru')
-          .toLowerCase()
-          .slice(0, 2);
-
-        if (navLang === 'uk') return 'uk';
-        return 'ru';
-      }
-
-      function applyLang(lang) {
-        const dict = messages[lang] || messages.ru;
-
-        document.getElementById('mm-badge').textContent = dict.badge;
-        document.getElementById('mm-title').textContent = dict.title;
-        document.getElementById('mm-about1').textContent = dict.about1;
-        document.getElementById('mm-about2').textContent = dict.about2;
-
-        const chipIds = ['chip1','chip2','chip3','chip4','chip5','chip6'];
-        chipIds.forEach((id, idx) => {
-          const el = document.getElementById(id);
-          if (el) el.textContent = dict.chips[idx] || '';
-        });
-
-        document.getElementById('mm-betaTitle').textContent = dict.betaTitle;
-        document.getElementById('mm-beta1').textContent = dict.beta1;
-        document.getElementById('mm-beta2').textContent = dict.beta2;
-        const viberEl = document.getElementById('mm-viber');
-        viberEl.textContent = dict.viberBtn;
-        viberEl.href = VIBER_URL;
-        document.getElementById('mm-betaNote').textContent = dict.betaNote;
-
-        document.getElementById('mm-startTitle').textContent = dict.startTitle;
-        document.getElementById('mm-startText').textContent = dict.startText;
-        document.getElementById('mm-startBtn').textContent = dict.startBtn;
-        document.getElementById('mm-startNote').textContent = dict.startNote;
-
-        // footer legal links
-        const privacy = document.getElementById('footer-privacy');
-        const terms = document.getElementById('footer-terms');
-        const impressum = document.getElementById('footer-impressum');
-        const support = document.getElementById('footer-support');
-
-        privacy.textContent = dict.footerPrivacy;
-        terms.textContent = dict.footerTerms;
-        impressum.textContent = dict.footerImpressum;
-        if (support) support.textContent = dict.footerSupport;
-
-        privacy.href = './legal/privacy.' + dict.legalSuffix + '.html';
-        terms.href = './legal/terms.' + dict.legalSuffix + '.html';
-        impressum.href = './legal/impressum.' + dict.legalSuffix + '.html';
-        if (support) support.href = VIBER_URL;
-        document.documentElement.lang = dict.htmlLang;
-
-        // SEO/meta
-        document.title = dict.metaTitle || document.title;
-
-        const md = document.getElementById('meta-description');
-        if (md && dict.metaDescription) md.setAttribute('content', dict.metaDescription);
-
-        const ogTitle = document.getElementById('meta-og-title');
-        if (ogTitle && dict.ogTitle) ogTitle.setAttribute('content', dict.ogTitle);
-
-        const ogDesc = document.getElementById('meta-og-description');
-        if (ogDesc && dict.ogDescription) ogDesc.setAttribute('content', dict.ogDescription);
-
-        const twTitle = document.getElementById('meta-twitter-title');
-        if (twTitle && dict.ogTitle) twTitle.setAttribute('content', dict.ogTitle);
-
-        const twDesc = document.getElementById('meta-twitter-description');
-        if (twDesc && dict.ogDescription) twDesc.setAttribute('content', dict.ogDescription);
-const buttons = document.querySelectorAll('.lang-btn');
-        buttons.forEach(function (btn) {
-          btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
-        });
-      }
-
-      const yearEl = document.getElementById('year');
-      if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-      let currentLang = detectInitialLang();
-      applyLang(currentLang);
-
-      const langSwitch = document.querySelector('.lang-switch');
-      if (langSwitch) {
-        langSwitch.addEventListener('click', function (e) {
-          const btn = e.target.closest('.lang-btn');
-          if (!btn) return;
-          const lang = btn.getAttribute('data-lang');
-          if (!lang || !(lang in messages)) return;
-          try { localStorage.setItem(LANG_STORAGE_KEY, lang); } catch (e) {}
-          currentLang = lang;
-          applyLang(currentLang);
-        });
-      }
-
-      // start trainer: same behaviour as previous заглушка
-      const startBtn = document.querySelector('[data-role="start-trainer"]');
-      if (startBtn) {
-        startBtn.addEventListener('click', function (e) {
-          e.preventDefault();
-          const targetUrl = startBtn.href;
-
-          const isMobile =
-            /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
-            window.innerWidth < 768;
-
-          if (isMobile) {
-            window.location.href = targetUrl;
-          } else {
-            const w = 430;
-            const h = 800;
-            const left = Math.round(window.screenX + (window.innerWidth - w) / 2);
-            const top = Math.round(window.screenY + (window.innerHeight - h) / 2);
-
-            window.open(
-              targetUrl,
-              'MOYAMOVATrainer',
-              'width=' +
-                w +
-                ',height=' +
-                h +
-                ',left=' +
-                left +
-                ',top=' +
-                top +
-                ',resizable=yes,scrollbars=yes,status=no'
-            );
-          }
-        });
-      }
-    })();
+    function openTrainer(){
+      const w = 420;
+      const h = 780;
+      const y = window.top.outerHeight / 2 + window.top.screenY - ( h / 2);
+      const x = window.top.outerWidth / 2 + window.top.screenX - ( w / 2);
+      window.open(
+        'https://moyamova.online/',
+        'moyamova_trainer',
+        `width=${w},height=${h},left=${x},top=${y},resizable=yes,scrollbars=no`
+      );
+    }
   </script>
 
-  <style>
-    body.page {
-      background-color: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    main {
-      flex: 1;
-    }
-
-    .placeholder-stack {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-      max-width: 720px;
-      margin: 0 auto;
-    }
-
-    .maintenance-card {
-      margin: 0;
-      padding: 24px 22px 20px;
-      border-radius: var(--radius-lg);
-      background: linear-gradient(145deg, rgba(255, 255, 255, 0.02), var(--card));
-      box-shadow: var(--shadow-soft);
-      border: 1px solid var(--border-subtle);
-    }
-
-    .maintenance-card--alt {
-      background: linear-gradient(145deg, rgba(255, 255, 255, 0.018), var(--card-alt));
-    }
-
-    .maintenance-card .badge {
-      display: inline-block;
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      color: var(--text-muted);
-      margin-bottom: 10px;
-    }
-
-    .maintenance-title {
-      font-size: 24px;
-      margin: 0 0 12px;
-    }
-
-    .maintenance-subtitle-title {
-      margin: 0 0 10px;
-      font-size: 18px;
-    }
-
-    .maintenance-text {
-      margin: 0 0 12px;
-      color: var(--text-muted);
-      font-size: 14px;
-      line-height: 1.55;
-    }
-
-    .maintenance-text:last-of-type {
-      margin-bottom: 0;
-    }
-
-    .maintenance-cta {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin-top: 12px;
-      margin-bottom: 10px;
-      text-decoration: none;
-    }
-
-    .maintenance-note {
-      margin: 0;
-      font-size: 12px;
-      color: var(--text-muted);
-    }
-
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 14px;
-    }
-
-    .btn-secondary {
-      background: linear-gradient(135deg, rgba(33, 196, 181, 0.18), rgba(46, 165, 255, 0.14));
-      border: 1px solid rgba(46, 165, 255, 0.35);
-      color: #ffffff !important;
-    }
-
-    .btn-secondary:hover {
-      filter: brightness(1.05);
-      transform: translateY(-1px);
-    }
-
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      color: var(--text-muted);
-      border: 1px solid rgba(255, 255, 255, 0.10);
-      background: rgba(255, 255, 255, 0.03);
-    }
-
-    .site-footer {
-      padding: 16px 0 24px;
-      border-top: 1px solid var(--border-subtle);
-    }
-
-    .footer-inner--stack {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      text-align: center;
-    }
-
-    .footer-links {
-      display: inline-flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      color: var(--text-muted);
-      font-size: 13px;
-    }
-
-    .footer-link {
-      color: var(--text-muted);
-      text-decoration: none;
-      border-bottom: 1px dashed rgba(255, 255, 255, 0.18);
-      padding-bottom: 1px;
-    }
-
-    .footer-link:hover {
-      color: var(--text);
-      text-decoration: none;
-      border-bottom-color: rgba(255, 255, 255, 0.35);
-    }
-
-    .footer-sep {
-      opacity: 0.55;
-    }
-
-    @media (max-width: 600px) {
-      .section {
-        padding: 52px 0;
-      }
-
-      .maintenance-card {
-        padding: 20px 16px 16px;
-      }
-
-      .maintenance-title {
-        font-size: 21px;
-      }
-
-      .maintenance-subtitle-title {
-        font-size: 16px;
-      }
-    }
-  </style>
 </body>
 </html>

@@ -950,3 +950,110 @@ a:hover {
     width: 100%;
   }
 }
+
+
+/* ===== Mini product placeholder (new index) ===== */
+.placeholder-stack{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+@media (min-width: 860px){
+  .placeholder-stack{
+    grid-template-columns: 1.15fr .85fr;
+    align-items: start;
+  }
+  .placeholder-stack > article:first-child{
+    grid-column: 1 / -1;
+  }
+}
+
+.maintenance-card{
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 30px 80px rgba(0,0,0,.35);
+  padding: 22px 18px;
+}
+
+.maintenance-card--alt{
+  background: linear-gradient(180deg, rgba(46,165,255,0.10), rgba(255,255,255,0.02));
+}
+
+.badge{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  background: rgba(46,165,255,0.16);
+  border: 1px solid rgba(46,165,255,0.22);
+  margin: 0 auto 12px;
+}
+
+.maintenance-title{
+  margin: 0 0 10px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: .01em;
+  text-align: center;
+}
+
+.maintenance-subtitle-title{
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: .01em;
+  text-align: center;
+}
+
+.maintenance-text{
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.maintenance-note{
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: rgba(244,245,255,0.72);
+  text-align: center;
+}
+
+.maintenance-cta{
+  width: 100%;
+  max-width: 420px;
+  margin: 14px auto 0;
+}
+
+.chips{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.chip{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(244,245,255,0.82);
+}
+
+/* Secondary button variant used in beta block */
+.btn-secondary{
+  background: linear-gradient(180deg, rgba(33,196,181,0.22), rgba(33,196,181,0.10));
+  border: 1px solid rgba(33,196,181,0.35);
+}

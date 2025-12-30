@@ -269,7 +269,7 @@ main {
 }
 
 .maintenance-cta {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -377,3 +377,11 @@ main {
 .section:first-of-type{
   padding-top: 6px;
 }
+
+
+/* Analytics consent banner */
+.mm-consent{position:fixed;left:14px;right:14px;bottom:14px;z-index:9999;max-width:720px;margin:0 auto;background:rgba(5,6,18,.92);border:1px solid rgba(255,255,255,.10);border-radius:18px;box-shadow:0 18px 45px rgba(0,0,0,.55);padding:14px 14px 12px;backdrop-filter:blur(14px)}
+.mm-consent__row{display:flex;gap:10px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.mm-consent__text{margin:0;color:var(--text-muted);font-size:13px;line-height:1.45;flex:1;min-width:220px}
+.mm-consent__actions{display:flex;gap:10px;flex-wrap:wrap}
+.mm-consent .btn{margin:0;min-width:120px}

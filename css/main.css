@@ -373,3 +373,7 @@ main {
   text-decoration: none;
   border-bottom-color: rgba(255, 255, 255, 0.35);
 }
+/* Поджать первый блок к шапке */
+.section:first-of-type{
+  padding-top: 6px;
+}

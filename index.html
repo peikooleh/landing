@@ -1,347 +1,317 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="ru" data-lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <title>MOYAMOVA — офлайн тренажёр слов (немецкий и английский A1–B2)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7fbfc">
+  <title>MOYAMOVA — тренажёр немецкого языка</title>
+  <meta name="description" content="MOYAMOVA — веб-тренажёр немецкого языка: слова, артикли, предлоги и практика. Откройте тренажёр прямо в браузере.">
+  <meta property="og:title" content="MOYAMOVA — тренажёр немецкого языка">
+  <meta property="og:description" content="Учите немецкий практикой. Тренажёр и видео на русском и украинском.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/img/logo.png">
+  <link rel="icon" href="./assets/img/logo.png">
+  <link rel="preload" href="./assets/img/app/screen-1.png" as="image">
+  <link rel="stylesheet" href="./assets/css/main.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#070816" />
-  <meta name="robots" content="index,follow" />
-  <meta name="keywords" content="немецкий, английский, слова, словарь, тренажёр, A1, A2, B1, B2, учить слова, офлайн" />
-
-  <meta name="description" content="MOYAMOVA — офлайн‑приложение для запоминания иностранных слов: немецкий и английский, 2500+ слов уровней A1–B2. Бесплатно, без рекламы, без регистрации и без сбора данных." id="meta-description" />
-
-  <link rel="canonical" href="https://moyamova.com/" />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://moyamova.com/" id="meta-og-url" />
-  <meta property="og:title" content="MOYAMOVA — офлайн тренажёр слов" id="meta-og-title" />
-  <meta property="og:description" content="Немецкий и английский • 2500+ слов A1–B2 • бесплатно • офлайн • без рекламы и без сбора данных." id="meta-og-description" />
-  <meta property="og:image" content="./img/og-cover.png" />
-  <meta property="og:image:alt" content="MOYAMOVA — тренажёр слов" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="MOYAMOVA — офлайн тренажёр слов" id="meta-twitter-title" />
-  <meta name="twitter:description" content="Немецкий и английский • 2500+ слов A1–B2 • бесплатно • офлайн • без рекламы и без сбора данных." id="meta-twitter-description" />
-  <meta name="twitter:image" content="./img/og-cover.png" />
-
-  <link rel="icon" href="./img/favicon.ico" sizes="any">
-  <link rel="icon" type="image/jpeg" href="./img/favicon.jpeg">
-  <link rel="stylesheet" href="./css/main.css" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-60RP2TVKJW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-60RP2TVKJW', { anonymize_ip: true });
+  </script>
 </head>
-<body class="page">
+<body>
   <header class="site-header">
-    <div class="container header-inner">
-      <a href="#" class="logo" aria-label="MOYAMOVA">
-        <img src="./img/logo-icon.png" alt="MOYAMOVA logo" class="logo-img" />
-        <span class="logo-text">MOYAMOVA</span>
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="MOYAMOVA — на главную">
+        <img src="./assets/img/logo.png" alt="" width="38" height="38">
+        <span>MOYAMOVA</span>
       </a>
-
-      <div class="lang-switch" aria-label="Language switcher">
-<button class="lang-btn is-active" data-lang="ru" type="button">RU</button>
-        <button class="lang-btn" data-lang="uk" type="button">UA</button>
-      </div>
+      <nav class="header-actions" aria-label="Основная навигация">
+        <a class="nav-link desktop-only" href="#trainer" data-i18n="navTrainer">Тренажёр</a>
+        <a class="nav-link desktop-only" href="#youtube">YouTube</a>
+        <a class="nav-link desktop-only" href="./help/" data-i18n="navHelp">Помощь</a>
+        <div class="lang-switch" aria-label="Язык сайта">
+          <button class="lang-btn is-active" type="button" data-lang-btn="ru">RU</button>
+          <button class="lang-btn" type="button" data-lang-btn="uk">UA</button>
+        </div>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <section class="section">
-      <div class="container">
-        <div class="placeholder-stack">
-          <!-- Block 1: About -->
-          <article class="maintenance-card">            <h1 class="maintenance-title" id="mm-title"></h1>
-            <p class="maintenance-text" id="mm-about1"></p>
-            <p class="maintenance-text" id="mm-about2"></p>
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">Немецкий без лишней теории</span></div>
+        <h1 data-i18n="heroTitle">Учи немецкий<br><span>практикой.</span></h1>
+        <p class="hero-lead" data-i18n="heroLead">MOYAMOVA — простой тренажёр слов, артиклей и конструкций. Открывается прямо в браузере.</p>
+        <div class="hero-actions">
+          <a href="https://moyamova.online/" class="btn btn-primary" data-open-trainer>
+            <span data-i18n="openTrainer">Запустить тренажёр</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4.5 13 10l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <p class="hero-note" data-i18n="heroNote">Бесплатно · без установки</p>
+        </div>
+      </div>
 
-            
-            <!--<div class="screenshots" aria-label="Screenshots">
-              <figure class="shot">
-                <img id="mm-shot-light" class="shot-img" src="./img/screens/ru-light.jpeg" alt="Скриншот (светлая тема)" loading="lazy" />
-                <figcaption class="shot-cap" id="mm-shot-light-cap"></figcaption>
-              </figure>
-              <figure class="shot">
-                <img id="mm-shot-dark" class="shot-img" src="./img/screens/ru-dark.jpeg" alt="Скриншот (тёмная тема)" loading="lazy" />
-                <figcaption class="shot-cap" id="mm-shot-dark-cap"></figcaption>
-              </figure>
-            </div> -->
+      <div class="hero-visual" aria-label="Интерфейс тренажёра MOYAMOVA">
+        <div class="glow glow-a"></div>
+        <div class="glow glow-b"></div>
+        <div class="phone-card phone-main">
+          <img src="./assets/img/app/screen-1.png" alt="Экран тренажёра MOYAMOVA" width="944" height="2048">
+        </div>
+        <div class="floating-card floating-one"><span class="floating-icon">✓</span><span data-i18n="floatPractice">Практика<br><b>без перегруза</b></span></div>
+        <div class="floating-card floating-two"><span class="level-chip">A1–B2</span><span data-i18n="floatLevel">в одном<br>тренажёре</span></div>
+      </div>
+    </section>
 
-            <div class="chips" aria-label="Key points">
-              <span class="chip" id="chip1"></span>
-              <span class="chip" id="chip2"></span>
-              <span class="chip" id="chip3"></span>
-              <span class="chip" id="chip4"></span>
-              <span class="chip" id="chip5"></span>
-              <span class="chip" id="chip6"></span>
+    <section class="trainer-section" id="trainer">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <p class="kicker" data-i18n="trainerKicker">Внутри MOYAMOVA</p>
+            <h2 data-i18n="trainerTitle">Только то, что помогает практиковаться.</h2>
+          </div>
+          <p data-i18n="trainerIntro">Короткие сессии, понятный интерфейс и разные типы заданий — чтобы возвращаться к немецкому регулярно.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature feature-large">
+            <div class="feature-copy">
+              <span class="feature-number">01</span>
+              <h3 data-i18n="feature1Title">Слова и переводы</h3>
+              <p data-i18n="feature1Text">Тренируйте лексику в обе стороны и сразу проверяйте себя.</p>
             </div>
+            <div class="screen-crop"><img src="./assets/img/app/screen-1.png" alt="Тренировка слов в MOYAMOVA" loading="lazy"></div>
           </article>
 
-          <!-- Block 3: Start -->
-          <article class="maintenance-card maintenance-card--alt">
-            <h2 class="maintenance-subtitle-title" id="mm-startTitle"></h2>
-            <p class="maintenance-text" id="mm-startText"></p>
-
-            <a href="https://moyamova.online/"
-               class="btn btn-primary maintenance-cta"
-               data-role="start-trainer"
-               id="mm-startBtn">
-            </a>
-
-            <p class="maintenance-note" id="mm-startNote"></p>
+          <article class="feature">
+            <div class="feature-copy">
+              <span class="feature-number">02</span>
+              <h3 data-i18n="feature2Title">Артикли</h3>
+              <p data-i18n="feature2Text">Отдельная практика der, die, das без лишних отвлечений.</p>
+            </div>
+            <div class="screen-crop crop-two"><img src="./assets/img/app/screen-2.png" alt="Тренировка артиклей в MOYAMOVA" loading="lazy"></div>
           </article>
 
-          <!-- Block 2: Feedback / Beta -->
-          <article class="maintenance-card maintenance-card--alt">
-            <h2 class="maintenance-subtitle-title" id="mm-betaTitle"></h2>
-            <p class="maintenance-text" id="mm-beta1"></p>
-            <p class="maintenance-text" id="mm-beta2"></p>
-
-            <a href="https://invite.viber.com/?g2=AQAitGq4muZQCVW44K1Z4aR%2FP9VDM2%2Bso14cyg3Ec1e7mt%2BTaLbs5S1UdHZCU%2Fy5"
-               class="btn btn-secondary maintenance-cta"
-               id="mm-viber"
-               target="_blank"
-               rel="noopener">
-            </a>
-
-            <p class="maintenance-note" id="mm-betaNote"></p>
+          <article class="feature">
+            <div class="feature-copy">
+              <span class="feature-number">03</span>
+              <h3 data-i18n="feature3Title">Конструкции</h3>
+              <p data-i18n="feature3Text">Закрепляйте предлоги и устойчивые сочетания на практике.</p>
+            </div>
+            <div class="screen-crop crop-three"><img src="./assets/img/app/screen-3.png" alt="Практика конструкций в MOYAMOVA" loading="lazy"></div>
           </article>
         </div>
       </div>
     </section>
+
+    <section class="flow-section">
+      <div class="shell flow-card">
+        <div class="flow-step"><span>1</span><strong data-i18n="flow1">Изучи</strong></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>2</span><strong data-i18n="flow2">Повтори</strong></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>3</span><strong data-i18n="flow3">Посмотри</strong></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step"><span>4</span><strong data-i18n="flow4">Практикуй снова</strong></div>
+      </div>
+    </section>
+
+    <section class="youtube-section" id="youtube">
+      <div class="shell">
+        <div class="section-head youtube-head">
+          <div>
+            <p class="kicker">MOYAMOVA · YouTube</p>
+            <h2 data-i18n="youtubeTitle">Смотри. Запоминай. Возвращайся к практике.</h2>
+          </div>
+          <p data-i18n="youtubeIntro">Два канала с немецким: выбирайте удобный язык объяснений.</p>
+        </div>
+
+        <div class="channel-grid" id="channelGrid">
+          <article class="channel-card" data-channel="uk">
+            <div class="channel-top">
+              <div class="channel-badge"><img class="channel-logo" src="./assets/img/channels/youtube-ua.webp" alt="" width="58" height="58" loading="lazy"><span>Українською</span></div>
+              <span class="youtube-mark">YouTube</span>
+            </div>
+            <div class="video-placeholder" data-video-slot="uk">
+              <div class="video-placeholder-inner">
+                <span class="play-mark">▶</span>
+                <strong data-i18n="videoPending">Последние видео появятся здесь</strong>
+                <small data-i18n="videoConfig">После добавления ID канала в config.js</small>
+              </div>
+            </div>
+            <div class="channel-bottom">
+              <div><strong>MOYAMOVA</strong><span data-i18n="channelUkText">Немецкий с украинским переводом</span></div>
+              <a class="text-link is-disabled" data-channel-link="uk" href="#" aria-disabled="true"><span data-i18n="openChannel">Открыть канал</span> ↗</a>
+            </div>
+          </article>
+
+          <article class="channel-card" data-channel="ru">
+            <div class="channel-top">
+              <div class="channel-badge"><img class="channel-logo" src="./assets/img/channels/youtube-ru.webp" alt="" width="58" height="58" loading="lazy"><span>По-русски</span></div>
+              <span class="youtube-mark">YouTube</span>
+            </div>
+            <div class="video-placeholder" data-video-slot="ru">
+              <div class="video-placeholder-inner">
+                <span class="play-mark">▶</span>
+                <strong data-i18n="videoPending">Последние видео появятся здесь</strong>
+                <small data-i18n="videoConfig">После добавления ID канала в config.js</small>
+              </div>
+            </div>
+            <div class="channel-bottom">
+              <div><strong>MOYAMOVA</strong><span data-i18n="channelRuText">Немецкий с русским переводом</span></div>
+              <a class="text-link is-disabled" data-channel-link="ru" href="#" aria-disabled="true"><span data-i18n="openChannel">Открыть канал</span> ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="publish-block">
+          <div class="publish-head">
+            <div>
+              <p class="kicker" data-i18n="scheduleKicker">График публикаций</p>
+              <h3 data-i18n="scheduleTitle">Новый немецкий — почти каждый день.</h3>
+            </div>
+            <p data-i18n="scheduleNote">Русский канал сейчас активно наполняется. После синхронизации контента оба канала перейдут на стабильный график: 2 длинных видео в неделю + Shorts каждый день.</p>
+          </div>
+
+          <div class="schedule-grid">
+            <article class="schedule-card">
+              <div class="schedule-card-head">
+                <span class="flag flag-ua" aria-hidden="true"></span>
+                <strong data-i18n="scheduleUa">Украинский канал</strong>
+              </div>
+              <div class="schedule-row">
+                <span data-i18n="shortsLabel">Shorts</span>
+                <b data-i18n="shortsTime">ежедневно · 07:00<br>выходные · 09:00</b>
+              </div>
+              <div class="schedule-row">
+                <span data-i18n="longLabel">Большие видео</span>
+                <b data-i18n="uaLongTime">вт · пт · 17:00</b>
+              </div>
+            </article>
+
+            <article class="schedule-card">
+              <div class="schedule-card-head">
+                <span class="flag flag-ru" aria-hidden="true"></span>
+                <strong data-i18n="scheduleRu">Русский канал</strong>
+              </div>
+              <div class="schedule-row">
+                <span data-i18n="shortsLabel">Shorts</span>
+                <b data-i18n="shortsTime">ежедневно · 07:00<br>выходные · 09:00</b>
+              </div>
+              <div class="schedule-row">
+                <span data-i18n="longLabel">Большие видео</span>
+                <b data-i18n="ruLongTime">пн · вт · чт · пт · 17:00</b>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="playlist-block">
+          <div class="playlist-head">
+            <div>
+              <p class="kicker" data-i18n="playlistKicker">Все подборки</p>
+              <h3 data-i18n="playlistTitle">Выбери тему и продолжай на YouTube.</h3>
+            </div>
+            <p data-i18n="playlistIntro">Плейлисты обновляются автоматически — новые подборки появятся здесь вместе с обложками.</p>
+          </div>
+
+          <div class="playlist-language">
+            <div class="playlist-language-head">
+              <strong><img class="playlist-channel-logo" src="./assets/img/channels/youtube-ua.webp" alt="" width="34" height="34" loading="lazy"><span data-i18n="playlistUa">Українською</span></strong>
+              <a data-channel-link="uk" href="#" class="text-link" target="_blank" rel="noopener"><span data-i18n="allOnYoutube">Все на YouTube</span> ↗</a>
+            </div>
+            <div class="playlist-grid" data-playlist-slot="uk">
+              <div class="playlist-empty" data-i18n="playlistLoading">Загружаем плейлисты…</div>
+            </div>
+          </div>
+
+          <div class="playlist-language">
+            <div class="playlist-language-head">
+              <strong><img class="playlist-channel-logo" src="./assets/img/channels/youtube-ru.webp" alt="" width="34" height="34" loading="lazy"><span data-i18n="playlistRu">По-русски</span></strong>
+              <a data-channel-link="ru" href="#" class="text-link" target="_blank" rel="noopener"><span data-i18n="allOnYoutube">Все на YouTube</span> ↗</a>
+            </div>
+            <div class="playlist-grid" data-playlist-slot="ru">
+              <div class="playlist-empty" data-i18n="playlistLoading">Загружаем плейлисты…</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="community-section shell" id="community" hidden data-viber-block>
+      <div class="community-card">
+        <div class="community-icon">V</div>
+        <div>
+          <p class="kicker">MOYAMOVA · Viber</p>
+          <h2 data-i18n="viberTitle">Присоединяйся к сообществу MOYAMOVA.</h2>
+          <p data-i18n="viberText">Новости проекта, обновления тренажёра и связь с MOYAMOVA — в одной группе.</p>
+        </div>
+        <a class="btn btn-dark" href="#" target="_blank" rel="noopener" data-viber-link><span data-i18n="joinViber">Открыть Viber</span><span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="help-strip shell">
+      <div class="help-strip-card">
+        <div>
+          <p class="kicker" data-i18n="helpKicker">MOYAMOVA как приложение</p>
+          <h2 data-i18n="helpTitle">Добавь тренажёр на главный экран телефона.</h2>
+          <p data-i18n="helpText">Короткая инструкция для iPhone / iPad и Android, плюс ответы по использованию MOYAMOVA.</p>
+        </div>
+        <a class="btn btn-light" href="./help/" data-i18n="openHelp">Открыть помощь</a>
+      </div>
+    </section>
+
+    <section class="beta-section shell" id="beta-test">
+      <div class="beta-card">
+        <div class="beta-icon" aria-hidden="true">β</div>
+        <div class="beta-copy">
+          <p class="kicker" data-i18n="betaKicker">Бета-тест MOYAMOVA</p>
+          <h2 data-i18n="betaTitle">Хотите помочь MOYAMOVA стать лучше?</h2>
+          <p data-i18n="betaText">Присоединяйтесь к бета-тестированию новых функций и версий приложения.</p>
+        </div>
+        <a class="btn btn-dark" href="https://forms.gle/LVL39XCSGmvuwZLd9" target="_blank" rel="noopener noreferrer"><span data-i18n="betaButton">Стать бета-тестером</span><span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="final-cta shell">
+      <div class="final-cta-card">
+        <img src="./assets/img/logo.png" alt="" width="88" height="88" loading="lazy">
+        <div>
+          <p class="kicker" data-i18n="ctaKicker">Можно начать прямо сейчас</p>
+          <h2 data-i18n="ctaTitle">Открой MOYAMOVA и попробуй одну сессию.</h2>
+        </div>
+        <a href="https://moyamova.online/" class="btn btn-dark" data-open-trainer><span data-i18n="openTrainer">Запустить тренажёр</span><span>↗</span></a>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner footer-inner--stack">
-      <p class="footer-copy">© <span id="year"></span> MOYAMOVA</p>
-
-      <nav class="footer-links" aria-label="Legal">
-        <a class="footer-link" id="footer-privacy" href="#"></a>
-        <span class="footer-sep"> | </span>
-        <a class="footer-link" id="footer-terms" href="#"></a>
-        <span class="footer-sep"> | </span>
-        <a class="footer-link" id="footer-impressum" href="#"></a>
-        <span class="footer-sep"> | </span>
-        <a class="footer-link" id="footer-support" href="#"></a>
-      </nav>
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top"><img src="./assets/img/logo.png" alt="" width="36" height="36"><span>MOYAMOVA</span></a>
+        <p data-i18n="footerText">Немецкий — меньше теории, больше практики.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://moyamova.online/" target="_blank" rel="noopener" data-i18n="trainerLink">Тренажёр</a>
+        <a href="#youtube">YouTube</a>
+        <a href="./help/" data-i18n="navHelp">Помощь</a>
+        <a href="#" target="_blank" rel="noopener" data-viber-footer hidden>Viber</a>
+      </div>
+      <div class="footer-links">
+        <a href="./legal/privacy.ru.html" data-legal-link="privacy" data-i18n="privacy">Политика конфиденциальности</a>
+        <a href="./legal/terms.ru.html" data-legal-link="terms" data-i18n="terms">Условия использования</a>
+        <a href="./legal/impressum.ru.html" data-legal-link="impressum">Impressum</a>
+      </div>
     </div>
+    <div class="shell footer-bottom"><span>© <span id="year"></span> MOYAMOVA</span><span>moyamova.com</span></div>
   </footer>
 
-  <script>
-    (function () {
-      const LANG_STORAGE_KEY = 'MOYAMOVA_lang';
-      const VIBER_URL = 'https://invite.viber.com/?g2=AQAitGq4muZQCVW44K1Z4aR%2FP9VDM2%2Bso14cyg3Ec1e7mt%2BTaLbs5S1UdHZCU%2Fy5';
-
-      const messages = {
-        ru: {
-          title: 'MOYAMOVA — тренажёр иностранных слов',
-          about1: 'MOYAMOVA — простое приложение для запоминания иностранных слов. Сейчас доступны тренировки по немецкому и английскому на основе словарей из 2500+ слов уровней A1–B2.',
-          about2: 'Приложение бесплатное, не содержит рекламы, не собирает данные и работает офлайн. Проект развивается постепенно — обратная связь пользователей напрямую влияет на то, каким он станет дальше.',
-          shotLightCap: 'Светлая тема',
-          shotDarkCap: 'Тёмная тема',
-          shotLightCap: 'Світла тема',
-          shotDarkCap: 'Темна тема',
-          chips: ['DE / EN', '2500+ слов', 'A1–B2', 'Бесплатно', 'Офлайн', 'Без сбора данных'],
-
-          startTitle: 'Запустить тренажёр',
-          startText: 'Приложение находится в ранней версии: словари, упражнения и интерфейс постепенно дорабатываются. Оно полностью бесплатное, без рекламы, не собирает данные и работает офлайн.',
-          startBtn: 'Запустить тренажёр',
-          startNote: 'Если окно не открылось, проверьте блокировщик всплывающих окон или попробуйте другой браузер. Его можно добавить на главный экран телефона и пользоваться как обычным приложением.',
-
-          betaTitle: 'Поддержка и закрытый бета‑тест',
-          beta1: 'Если вы готовы помочь проекту, буду благодарен за короткую обратную связь: что удобно, что мешает, где встречаются ошибки в словарях и какие тренировки стоит добавить.',
-          beta2: 'Для обсуждений и поддержки есть Viber‑группа. Там же проходит закрытый бета‑тест перед релизом в маркет.',
-          viberBtn: 'Вступить в Viber‑группу',
-          betaNote: 'Ссылка откроется в Viber.',
-
-          footerPrivacy: 'Политика конфиденциальности',
-          footerTerms: 'Условия использования',
-          footerImpressum: 'Импрессум',
-          footerSupport: '',
-
-          metaTitle: 'MOYAMOVA — офлайн тренажёр слов (немецкий и английский A1–B2)',
-          metaDescription: 'MOYAMOVA — офлайн‑приложение для запоминания иностранных слов: немецкий и английский, 2500+ слов уровней A1–B2. Бесплатно, без рекламы, без регистрации и без сбора данных.',
-          ogTitle: 'MOYAMOVA — офлайн тренажёр слов',
-          ogDescription: 'Немецкий и английский • 2500+ слов A1–B2 • бесплатно • офлайн • без рекламы и без сбора данных.',
-
-          htmlLang: 'ru',
-          legalSuffix: 'ru'
-        },
-        uk: {
-          title: 'MOYAMOVA — тренажер іноземних слів',
-          about1: 'MOYAMOVA — простий застосунок для запам’ятовування іноземних слів. Зараз доступні тренування з німецької та англійської на основі словників із 2500+ слів рівнів A1–B2.',
-          about2: 'Застосунок безкоштовний, без реклами, не збирає дані та працює офлайн. Проєкт розвивається поступово — ваш фідбек напряму впливає на те, яким він стане далі.',
-          chips: ['DE / EN', '2500+ слів', 'A1–B2', 'Безкоштовно', 'Офлайн', 'Без збору даних'],
-
-          startTitle: 'Запустити тренажер',
-          startText: 'Застосунок у ранній версії: словники, вправи та інтерфейс поступово допрацьовуються. Він повністю безкоштовний, без реклами, не збирає дані та працює офлайн.',
-          startBtn: 'Запустити тренажер',
-          startNote: 'Якщо вікно не відкрилось, перевірте блокування спливаючих вікон або спробуйте інший браузер. Його можна додати на головний екран телефону та користуватися як звичайним застосунком.',
-
-          betaTitle: 'Підтримка та закритий бета‑тест',
-          beta1: 'Якщо ви готові допомогти проєкту, буду вдячний за короткий фідбек: що зручно, що заважає, де трапляються помилки у словниках і які тренування варто додати.',
-          beta2: 'Для обговорення та підтримки є Viber‑група. Там же проходить закритий бета‑тест перед релізом у маркет.',
-          viberBtn: 'Приєднатися у Viber',
-          betaNote: 'Посилання відкриється у Viber.',
-
-          footerPrivacy: 'Політика конфіденційності',
-          footerTerms: 'Умови використання',
-          footerImpressum: 'Імпресум',
-          footerSupport: '',
-
-          metaTitle: 'MOYAMOVA — офлайн тренажер слів (німецька та англійська A1–B2)',
-          metaDescription: 'MOYAMOVA — офлайн‑застосунок для запам’ятовування іноземних слів: німецька та англійська, 2500+ слів рівнів A1–B2. Безкоштовно, без реклами, без реєстрації та без збору даних.',
-          ogTitle: 'MOYAMOVA — офлайн тренажер слів',
-          ogDescription: 'Німецька та англійська • 2500+ слів A1–B2 • безкоштовно • офлайн • без реклами та без збору даних.',
-
-          htmlLang: 'uk',
-          legalSuffix: 'uk'
-        }
-      };
-
-      function detectInitialLang() {
-        try {
-          const stored = localStorage.getItem(LANG_STORAGE_KEY);
-          if (stored && messages[stored]) return stored;
-        } catch (e) {}
-
-        const navLang = (navigator.language || (navigator.languages && navigator.languages[0]) || 'ru')
-          .toLowerCase()
-          .slice(0, 2);
-
-        if (navLang === 'uk') return 'uk';
-        return 'ru';
-      }
-
-      function applyLang(lang) {
-        const dict = messages[lang] || messages.ru;
-document.getElementById('mm-title').textContent = dict.title;
-        document.getElementById('mm-about1').textContent = dict.about1;
-        document.getElementById('mm-about2').textContent = dict.about2;
-
-        // screenshots
-        const lightImg = document.getElementById('mm-shot-light');
-        const darkImg  = document.getElementById('mm-shot-dark');
-        if (lightImg) lightImg.src = (lang === 'uk') ? './img/screens/uk-light.jpeg' : './img/screens/ru-light.jpeg';
-        if (darkImg)  darkImg.src  = (lang === 'uk') ? './img/screens/uk-dark.jpeg'  : './img/screens/ru-dark.jpeg';
-
-        const lightCap = document.getElementById('mm-shot-light-cap');
-        const darkCap  = document.getElementById('mm-shot-dark-cap');
-        if (lightCap) lightCap.textContent = dict.shotLightCap || '';
-        if (darkCap)  darkCap.textContent  = dict.shotDarkCap || '';
-
-        const chipIds = ['chip1','chip2','chip3','chip4','chip5','chip6'];
-        chipIds.forEach((id, idx) => {
-          const el = document.getElementById(id);
-          if (el) el.textContent = dict.chips[idx] || '';
-        });
-
-        document.getElementById('mm-betaTitle').textContent = dict.betaTitle;
-        document.getElementById('mm-beta1').textContent = dict.beta1;
-        document.getElementById('mm-beta2').textContent = dict.beta2;
-        const viberEl = document.getElementById('mm-viber');
-        viberEl.textContent = dict.viberBtn;
-        viberEl.href = VIBER_URL;
-        document.getElementById('mm-betaNote').textContent = dict.betaNote;
-
-        document.getElementById('mm-startTitle').textContent = dict.startTitle;
-        document.getElementById('mm-startText').textContent = dict.startText;
-        document.getElementById('mm-startBtn').textContent = dict.startBtn;
-        document.getElementById('mm-startNote').textContent = dict.startNote;
-
-        // footer legal links
-        const privacy = document.getElementById('footer-privacy');
-        const terms = document.getElementById('footer-terms');
-        const impressum = document.getElementById('footer-impressum');
-        const support = document.getElementById('footer-support');
-
-        privacy.textContent = dict.footerPrivacy;
-        terms.textContent = dict.footerTerms;
-        impressum.textContent = dict.footerImpressum;
-        if (support) support.textContent = dict.footerSupport;
-
-        privacy.href = './legal/privacy.' + dict.legalSuffix + '.html';
-        terms.href = './legal/terms.' + dict.legalSuffix + '.html';
-        impressum.href = './legal/impressum.' + dict.legalSuffix + '.html';
-        if (support) support.href = VIBER_URL;
-        document.documentElement.lang = dict.htmlLang;
-
-        // SEO/meta
-        document.title = dict.metaTitle || document.title;
-
-        const md = document.getElementById('meta-description');
-        if (md && dict.metaDescription) md.setAttribute('content', dict.metaDescription);
-
-        const ogTitle = document.getElementById('meta-og-title');
-        if (ogTitle && dict.ogTitle) ogTitle.setAttribute('content', dict.ogTitle);
-
-        const ogDesc = document.getElementById('meta-og-description');
-        if (ogDesc && dict.ogDescription) ogDesc.setAttribute('content', dict.ogDescription);
-
-        const twTitle = document.getElementById('meta-twitter-title');
-        if (twTitle && dict.ogTitle) twTitle.setAttribute('content', dict.ogTitle);
-
-        const twDesc = document.getElementById('meta-twitter-description');
-        if (twDesc && dict.ogDescription) twDesc.setAttribute('content', dict.ogDescription);
-const buttons = document.querySelectorAll('.lang-btn');
-        buttons.forEach(function (btn) {
-          btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
-        });
-      }
-
-      const yearEl = document.getElementById('year');
-      if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-      let currentLang = detectInitialLang();
-      applyLang(currentLang);
-
-      const langSwitch = document.querySelector('.lang-switch');
-      if (langSwitch) {
-        langSwitch.addEventListener('click', function (e) {
-          const btn = e.target.closest('.lang-btn');
-          if (!btn) return;
-          const lang = btn.getAttribute('data-lang');
-          if (!lang || !(lang in messages)) return;
-          try { localStorage.setItem(LANG_STORAGE_KEY, lang); } catch (e) {}
-          currentLang = lang;
-          applyLang(currentLang);
-        });
-      }
-
-      // start trainer: same behaviour as previous заглушка
-      const startBtn = document.querySelector('[data-role="start-trainer"]');
-      if (startBtn) {
-        startBtn.addEventListener('click', function (e) {
-          e.preventDefault();
-          const targetUrl = startBtn.href;
-
-          const isMobile =
-            /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ||
-            window.innerWidth < 768;
-
-          if (isMobile) {
-            window.location.href = targetUrl;
-          } else {
-            const w = 430;
-            const h = 800;
-            const left = Math.round(window.screenX + (window.innerWidth - w) / 2);
-            const top = Math.round(window.screenY + (window.innerHeight - h) / 2);
-
-            window.open(
-              targetUrl,
-              'MOYAMOVATrainer',
-              'width=' +
-                w +
-                ',height=' +
-                h +
-                ',left=' +
-                left +
-                ',top=' +
-                top +
-                ',resizable=yes,scrollbars=yes,status=no'
-            );
-          }
-        });
-      }
-    })();
-  </script>
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>

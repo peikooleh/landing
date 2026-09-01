@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-09-01T05:17:22.520710+00:00",
+  "updatedAt": "2026-09-01T11:45:01.576176+00:00",
   "channels": {
     "uk": {
       "videos": [
+        {
+          "id": "co0G3BpR8n4",
+          "title": "Німецькі дієслова: сімейство STELLEN 🇩🇪 Частина 2 #shorts",
+          "published": "2026-09-01T05:00:01+00:00",
+          "thumbnail": "https://i4.ytimg.com/vi/co0G3BpR8n4/hqdefault.jpg"
+        },
         {
           "id": "BGZath6gbZ4",
           "title": "Німецькі дієслова: сімейство STELLEN 🇩🇪 Частина 1 #shorts",
@@ -14,12 +20,6 @@
           "title": "Німецькі дієслова: сімейство BRINGEN 🇩🇪 Частина 2 #shorts",
           "published": "2026-08-30T05:00:27+00:00",
           "thumbnail": "https://i2.ytimg.com/vi/I4WfafpbMYI/hqdefault.jpg"
-        },
-        {
-          "id": "8m46YJofu-4",
-          "title": "Німецькі дієслова з прийменниками А2 | Verben mit Präpositionen 🇩🇪🇺🇦",
-          "published": "2026-08-29T12:47:02+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/8m46YJofu-4/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -47,14 +47,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CLSU2dQG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLBRTtcC-nbxe1SuSSqTxIifi2PO6g",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CODG2tQG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLC3wxy8lVDUwU3cxcD4pPBCVvQoKA",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CP6u2dQG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLCuEbWrHC9f2E9nnSN0jJWE4ltF5Q",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=COjk2tQG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLDnKIKSeVD9BqfyhquR7hmPGRCoaw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -62,6 +62,12 @@
     },
     "ru": {
       "videos": [
+        {
+          "id": "97iYcTaDKx0",
+          "title": "Думаешь, STEHEN — это просто «стоять»? Ты сильно ошибаешься! 🤯 (Часть 1) #shorts  #deutsch",
+          "published": "2026-09-01T05:14:53+00:00",
+          "thumbnail": "https://i2.ytimg.com/vi/97iYcTaDKx0/hqdefault.jpg"
+        },
         {
           "id": "16QBhQ16fds",
           "title": "Твой немецкий растет! Третья сотня главных СУЩЕСТВИТЕЛЬНЫХ с переводом (Часть 3 из 6)",
@@ -73,12 +79,6 @@
           "title": "Один глагол SEHEN — десятки скрытых смыслов! (Часть 1)",
           "published": "2026-08-31T05:00:18+00:00",
           "thumbnail": "https://i4.ytimg.com/vi/_S1MnuxcsMU/hqdefault.jpg"
-        },
-        {
-          "id": "X4J9Z7nYq7k",
-          "title": "Думаешь, ты знаешь глагол BRINGEN? Проверь эти приставки! (Часть 2) 🤯 #shorts  #deutsch",
-          "published": "2026-08-30T07:00:38+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/X4J9Z7nYq7k/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -92,28 +92,28 @@
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CKCR2dQG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLBZ0YhQkgVMeo7qY2ArELHirvSFRA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=COzm2tQG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLAq6pTfNIg4OKILFfognZ_EH7r7vw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CN7_2NQG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLBuKjL3Q_s3lBFN42-j4X5m8tv4kw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CLrE2tQG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLAe_P-gIPMom-oV6aP45R47yIONfw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CLyy2dQG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLBc4O5jCqCqr66VCSzAjA6-0fmgGQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CMDV2tQG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLDJwn2TqnsVwx5GOwmTbVxpHjv_9A",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CLif2dQG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLCMSE54iqpIrqQWd9j3NnyUo1tfnA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CNCv2tQG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLBUiQzGWQbNqFslkt3dOl2TpIbY6Q",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }

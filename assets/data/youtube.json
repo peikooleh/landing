@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T11:22:29.236477+00:00",
+  "updatedAt": "2026-09-03T16:30:37.087543+00:00",
   "channels": {
     "uk": {
       "videos": [
@@ -54,14 +54,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CNjx5NQG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLBnbK2BmbTxS4k2zrLjBDLW8uTlpw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CPeF5tQG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLA2g-ue08z4L3hFtuuasSHiNunZTw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CP7t5NQG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLC76ZX4DxqM7T0iE_A7hO4kVR6msg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CMag5tQG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLBz4-GXyCJm9ugmlpEaDrhvLwo3YA",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -69,6 +69,12 @@
     },
     "ru": {
       "videos": [
+        {
+          "id": "JRoeqcFor2o",
+          "title": "Уже половина пути! 100 мощных немецких СУЩЕСТВИТЕЛЬНЫХ для общения (Часть 4 из 6)",
+          "published": "2026-09-03T15:00:05+00:00",
+          "thumbnail": "https://i3.ytimg.com/vi/JRoeqcFor2o/hqdefault.jpg"
+        },
         {
           "id": "gOP21bRlroA",
           "title": "Разрыв шаблона: Глагол STEHEN удивляет! (Часть 2) 🧩 #shorts #немецкий",
@@ -80,12 +86,6 @@
           "title": "Думаешь, ты знаешь глагол SEHEN? Проверь эти приставки! (Часть 2) 🤯 #shorts  #deutsch",
           "published": "2026-09-02T07:00:13+00:00",
           "thumbnail": "https://i1.ytimg.com/vi/8zPCVv0x9zY/hqdefault.jpg"
-        },
-        {
-          "id": "ZZZ_dQ-mw7U",
-          "title": "Как сказать «Это зависит от...» на немецком? 🤔 #shorts #немецкийязык #немецкиеслова #учитьнемецкий",
-          "published": "2026-09-01T15:00:39+00:00",
-          "thumbnail": "https://i3.ytimg.com/vi/ZZZ_dQ-mw7U/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -106,28 +106,28 @@
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CLTr5NQG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLCSUMbo-QMHbb_wqrVhJvOjNUtdzQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CLiO5tQG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLA0fi4lreOVLDO7-F0lY7psqvdEAw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CLCg5dQG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLBl4sC-_E7wbMcsxh1HmKsPgg87eQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CJeK5tQG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLChWssQnfDBl3dr7uKjEuFve6btdQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CMKa5dQG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLCPl73ZP-ioCLPvEQp9JCB2hIBmpQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=COSQ5tQG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLD-oTTHTcO2VZU0KiGFduk1UhUPLg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CMSK5dQG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLBMPGjvhw41QxqJE6cLuULZTK90tg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CIC-5tQG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLAE0inD6xaE2OhNaGIlwt1auLxdCw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }

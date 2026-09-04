@@ -116,8 +116,16 @@
       if (value != null) el.innerHTML = value;
     });
     // Keep product screenshots in the same language as the landing UI.
-    document.querySelectorAll('[data-app-screen="trainer"]').forEach(img => {
-      img.src = `./assets/img/app/screen-1-${lang === 'uk' ? 'uk' : 'ru'}.png`;
+    const screenLang = lang === 'uk' ? 'uk' : 'ru';
+    document.querySelectorAll('[data-app-screen]').forEach(img => {
+      const screen = img.dataset.appScreen;
+      if (screen === 'trainer') {
+        img.src = `./assets/img/app/screen-1-${screenLang}.png`;
+      } else if (screen === 'articles') {
+        img.src = `./assets/img/app/screen-2-${screenLang}.png`;
+      } else if (screen === 'prepositions') {
+        img.src = `./assets/img/app/screen-3-${screenLang}.png`;
+      }
     });
     const legalLang = lang === 'uk' ? 'uk' : 'ru';
     document.querySelectorAll('[data-legal-link]').forEach(link => {

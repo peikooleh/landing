@@ -12,7 +12,7 @@
 <body>
 <header class="topbar"><div class="shell topbar-inner"><a class="brand" href="../index.html"><img src="../assets/img/logo.png" alt="" width="38" height="38"><span>MOYAMOVA</span></a><div class="top-actions"><div class="lang-switch"><button data-lang-btn="ru">RU</button><button data-lang-btn="uk">UA</button></div><a class="back" href="../index.html" data-ru="← На главную" data-uk="← На головну">← На главную</a></div></div></header>
 <main>
-<section class="hero shell"><p class="kicker" data-ru="Помощь · MOYAMOVA" data-uk="Допомога · MOYAMOVA">Помощь · MOYAMOVA</p><h1 data-ru="Всё, что нужно для практики." data-uk="Усе, що потрібно для практики.">Всё, что нужно для практики.</h1><p class="lead" data-ru="Короткая инструкция по тренажёру, прогрессу, режимам и установке MOYAMOVA." data-uk="Коротка інструкція про тренажер, прогрес, режими та встановлення MOYAMOVA.">Короткая инструкция по тренажёру, прогрессу, режимам и установке MOYAMOVA.</p><a class="btn" href="https://moyamova.online/" target="_blank" rel="noopener" data-open-trainer data-ru="Открыть тренажёр ↗" data-uk="Відкрити тренажер ↗">Открыть тренажёр ↗</a></section>
+<section class="hero shell"><p class="kicker" data-ru="Помощь · MOYAMOVA" data-uk="Допомога · MOYAMOVA">Помощь · MOYAMOVA</p><h1 data-ru="Всё, что нужно для практики." data-uk="Усе, що потрібно для практики.">Всё, что нужно для практики.</h1><p class="lead" data-ru="Короткая инструкция по тренажёру, прогрессу, режимам и установке MOYAMOVA." data-uk="Коротка інструкція про тренажер, прогрес, режими та встановлення MOYAMOVA.">Короткая инструкция по тренажёру, прогрессу, режимам и установке MOYAMOVA.</p><div class="trainer-test-actions"><a class="btn" href="https://moyamova.online/" data-open-trainer data-ru="Запустить тренажёр ↗" data-uk="Запустити тренажер ↗">Запустить тренажёр ↗</a></div></section>
 
 <section class="shell guide">
 <div class="guide-block"><h2 data-ru="🎯 Что такое MOYAMOVA" data-uk="🎯 Що таке MOYAMOVA">🎯 Что такое MOYAMOVA</h2><p data-ru="MOYAMOVA — тренажёр для изучения слов через короткие тренировки с карточками. Никакой рекламы, подписок и лишнего шума — только язык, практика и ваш прогресс. Все данные и результаты тренировок хранятся локально на вашем устройстве." data-uk="MOYAMOVA — тренажер для вивчення слів за допомогою коротких тренувань із картками. Жодної реклами, підписок чи зайвого шуму — лише мова, практика та ваш прогрес. Усі дані й результати тренувань зберігаються локально на вашому пристрої.">MOYAMOVA — тренажёр для изучения слов через короткие тренировки с карточками. Никакой рекламы, подписок и лишнего шума — только язык, практика и ваш прогресс. Все данные и результаты тренировок хранятся локально на вашем устройстве.</p></div>
@@ -30,29 +30,7 @@
 </main>
 <footer><div class="shell footer-inner"><span>© MOYAMOVA</span><nav><a href="../legal/privacy.ru.html" data-legal="privacy" data-ru="Конфиденциальность" data-uk="Конфіденційність">Конфиденциальность</a><a href="../legal/terms.ru.html" data-legal="terms" data-ru="Условия" data-uk="Умови">Условия</a><a href="../legal/impressum.ru.html" data-legal="impressum">Impressum</a></nav></div></footer>
 <script>
-(()=>{
-  const trainerUrl='https://moyamova.online/';
-  function openTrainer(event){
-    event.preventDefault();
-    const isSmall=window.matchMedia('(max-width: 720px)').matches||/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    if(isSmall){
-      window.open(trainerUrl,'_blank','noopener');
-      return;
-    }
-    const width=430;
-    const height=Math.min(820,Math.max(650,window.screen.availHeight-80));
-    const left=Math.max(0,Math.round((window.screen.availWidth-width)/2));
-    const top=Math.max(0,Math.round((window.screen.availHeight-height)/2));
-    const popup=window.open(trainerUrl,'moyamova_trainer',`popup=yes,width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`);
-    if(!popup) window.open(trainerUrl,'_blank','noopener');
-  }
-  document.querySelectorAll('[data-open-trainer]').forEach(link=>{
-    link.href=trainerUrl;
-    link.addEventListener('click',openTrainer);
-  });
-})();
-</script>
-<script>
+(()=>{const trainerUrl='https://moyamova.online/';function openTrainer(event){event.preventDefault();const isMobile=window.matchMedia('(max-width:899px)').matches||/Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);if(isMobile){window.open(trainerUrl,'_blank','noopener');return}const width=Math.min(1366,Math.max(900,window.screen.availWidth-40));const height=Math.min(850,Math.max(650,window.screen.availHeight-60));const left=Math.max(0,Math.round((window.screen.availWidth-width)/2));const top=Math.max(0,Math.round((window.screen.availHeight-height)/2));const popup=window.open(trainerUrl,'moyamova_trainer',`popup=yes,width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`);if(!popup)window.open(trainerUrl,'_blank','noopener')}document.querySelectorAll('[data-open-trainer]').forEach(link=>{link.href=trainerUrl;link.addEventListener('click',openTrainer)})})();
 (()=>{const btns=[...document.querySelectorAll('[data-lang-btn]')];function setLang(lang){lang=lang==='uk'?'uk':'ru';localStorage.setItem('moyamova-lang',lang);document.documentElement.lang=lang;document.querySelectorAll('[data-ru][data-uk]').forEach(el=>el.textContent=el.dataset[lang]);btns.forEach(b=>b.classList.toggle('is-active',b.dataset.langBtn===lang));document.querySelectorAll('[data-legal]').forEach(a=>a.href=`../legal/${a.dataset.legal}.${lang}.html`);document.title=lang==='uk'?'Допомога MOYAMOVA':'Помощь MOYAMOVA'}btns.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.langBtn)));setLang(localStorage.getItem('moyamova-lang')||(navigator.language||'').toLowerCase().startsWith('uk')?'uk':'ru')})();
 </script>
 </body></html>

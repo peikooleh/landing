@@ -78,23 +78,26 @@
     const link = event.currentTarget;
     const targetUrl = link?.href || trainerUrl;
     const location = link?.closest('.hero') ? 'hero' : (link?.closest('.final-cta') ? 'final_cta' : 'other');
+    const isMobile = window.matchMedia('(max-width: 899px)').matches
+      || /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
     trackEvent('trainer_open', {
       location,
-      device: window.innerWidth < 768 ? 'mobile' : 'desktop',
+      device: isMobile ? 'mobile' : 'desktop',
       language: document.documentElement.dataset.lang || 'ru'
     });
 
-    const isSmall = window.matchMedia('(max-width: 720px)').matches || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    if (isSmall) {
+    if (isMobile) {
       window.open(targetUrl, '_blank', 'noopener');
       return;
     }
-    const width = 430;
-    const height = Math.min(820, Math.max(650, window.screen.availHeight - 80));
+
+    const width = Math.min(1366, Math.max(900, window.screen.availWidth - 40));
+    const height = Math.min(850, Math.max(650, window.screen.availHeight - 60));
     const left = Math.max(0, Math.round((window.screen.availWidth - width) / 2));
     const top = Math.max(0, Math.round((window.screen.availHeight - height) / 2));
-    const popup = window.open(targetUrl, 'moyamova_trainer', `popup=yes,width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`);
+    const popup = window.open(targetUrl, 'moyamova_trainer',
+      `popup=yes,width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`);
     if (!popup) window.open(targetUrl, '_blank', 'noopener');
   }
 

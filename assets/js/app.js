@@ -115,6 +115,10 @@
       const value = translations[lang][el.dataset.i18n];
       if (value != null) el.innerHTML = value;
     });
+    // Keep product screenshots in the same language as the landing UI.
+    document.querySelectorAll('[data-app-screen="trainer"]').forEach(img => {
+      img.src = `./assets/img/app/screen-1-${lang === 'uk' ? 'uk' : 'ru'}.png`;
+    });
     const legalLang = lang === 'uk' ? 'uk' : 'ru';
     document.querySelectorAll('[data-legal-link]').forEach(link => {
       const doc = link.dataset.legalLink;

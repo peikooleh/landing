@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-09-10T06:53:05.059641+00:00",
+  "updatedAt": "2026-09-10T11:28:06.713122+00:00",
   "channels": {
     "uk": {
       "videos": [
+        {
+          "id": "FvXyKXhZBTA",
+          "title": "🏃‍♂️ 1 слово = 5 дієслів: сімейство «laufen» – секрет швидкого розширення словника! (частина 2)",
+          "published": "2026-09-10T05:00:22+00:00",
+          "thumbnail": "https://i3.ytimg.com/vi/FvXyKXhZBTA/hqdefault.jpg"
+        },
         {
           "id": "TaajPopeGuk",
           "title": "🏃‍♂️ 1 слово = 5 дієслів! Секрет сімейства \"laufen\" 🔥 (частина 1)",
@@ -14,12 +20,6 @@
           "title": "2252 НІМЕЦЬКИХ СЛОВА від А1 до В2! Повний словниковий запас з перекладом (Мега-Підбірка)",
           "published": "2026-09-08T15:00:35+00:00",
           "thumbnail": "https://i2.ytimg.com/vi/e_wwxsCjjJA/hqdefault.jpg"
-        },
-        {
-          "id": "rcZ2mGGhio4",
-          "title": "🇩🇪 1 дієслово GEHEN = 5 нових слів! Секрет німецької 🚀",
-          "published": "2026-09-08T05:00:18+00:00",
-          "thumbnail": "https://i3.ytimg.com/vi/rcZ2mGGhio4/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -61,14 +61,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CInliNUG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLAs-ewnXEcwB9FeyviN_cbaAlXGsA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CJiIitUG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLAnfcmrpqdEGvs40TdLicXqWs1ZqQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=COD5iNUG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLD0sgG9PMAQCHnC8mIeTlB4QXsGlg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CMCOitUG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLACOd_Ih-4M_36qSFmjL7FwUXTSzw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -76,6 +76,12 @@
     },
     "ru": {
       "videos": [
+        {
+          "id": "tX8Vnedemao",
+          "title": "🇩🇪 1 глагол FAHREN = 5 новых слов! Немецкий язык (часть 1)🚀",
+          "published": "2026-09-10T07:00:21+00:00",
+          "thumbnail": "https://i1.ytimg.com/vi/tX8Vnedemao/hqdefault.jpg"
+        },
         {
           "id": "Jm-gMUHK5E8",
           "title": "ВСЕ СЛОВА УРОВНЯ А1 в одном видео! 1715 немецких слов с переводом (Полный курс с нуля)",
@@ -87,12 +93,6 @@
           "title": "🇩🇪 1 слово = 5 глаголов! Глагол ARBEITEN (часть 3)",
           "published": "2026-09-09T07:00:23+00:00",
           "thumbnail": "https://i4.ytimg.com/vi/wnZGlbicLfc/hqdefault.jpg"
-        },
-        {
-          "id": "rojdPmoQ570",
-          "title": "Без этого ты не сдашь экзамен А2! Важные связки Прилагательное + Предлог в немецком",
-          "published": "2026-09-08T15:00:24+00:00",
-          "thumbnail": "https://i3.ytimg.com/vi/rojdPmoQ570/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -113,35 +113,35 @@
         {
           "id": "PLNDCUhM4F0h8",
           "title": "Семейства немецких глаголов | Deutsch Shorts",
-          "thumbnail": "https://i.ytimg.com/vi/wnZGlbicLfc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDu4p3fNjCXHPnzL4c13uyiCAJIqA",
+          "thumbnail": "https://i.ytimg.com/vi/tX8Vnedemao/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA8Og6WF5F9ttRqYZ5Gzv2ss-XAzA",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLNDCUhM4F0h8"
         },
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CKjjiNUG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLDJU_t0pRasXeOkSrIu2-XvdkWoMg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CP6nitUG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLAuhR4Y2CotOfs_KFMoxh0O65dw9Q",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CIqkidUG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLAmLyyQXY4ZJ0SrCH1PuwZTH2rjUg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CNqmitUG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLC7XYnZ7mo6Ro1QAyurM8KfSzYh6w",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CJiLidUG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLCLtJvvp-eqJG93TH8kDVLZhQVvRg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CIiCitUG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLCS-gVCbUSMbiEQJZdadLBYQM45Pg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CNiVidUG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLBprfUnOlnqgKYbS5rlt_wQEOGJmA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CMSFitUG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLBGz9MSpUyGBQaIPcnVS-7biU72DQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }

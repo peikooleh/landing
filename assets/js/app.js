@@ -10,19 +10,23 @@
 
   const translations = {
     ru: {
-      navTrainer: 'Тренажёр', navHelp: 'Помощь', eyebrow: 'Немецкий без лишней теории',
-      heroTitle: 'Учи немецкий<br><span>практикой.</span>',
-      heroLead: 'MOYAMOVA — простой тренажёр слов, артиклей и конструкций. Открывается прямо в браузере.',
+      navTrainer: 'Тренажёр', navHelp: 'Помощь', eyebrow: 'Deutsch · English · Français',
+      seoTitle: 'MOYAMOVA — тренажёр иностранных языков | Немецкий, английский и французский',
+      seoDescription: 'Бесплатный языковой тренажёр MOYAMOVA: учите немецкие, английские и французские слова, повторяйте изученное и следите за прогрессом. Для немецкого — отдельные тренировки артиклей и предлогов.',
+      seoOgTitle: 'MOYAMOVA — тренажёр иностранных языков',
+      seoOgDescription: 'Немецкий, английский и французский: слова, повторение и прогресс в одном тренажёре. Для немецкого — дополнительные упражнения.',
+      heroTitle: 'Учи языки<br><span>практикой.</span>',
+      heroLead: 'MOYAMOVA — простой тренажёр немецкого, английского и французского. Слова, повторение и прогресс — прямо в браузере.',
       openTrainer: 'Запустить тренажёр', heroNote: 'Бесплатно · без установки',
       point1: 'Слова и переводы', point2: 'Артикли и грамматика', point3: 'Повторение ошибок',
       floatPractice: 'Практика<br><b>без перегруза</b>', floatLevel: 'в одном<br>тренажёре',
       trainerKicker: 'Внутри MOYAMOVA', trainerTitle: 'Только то, что помогает практиковаться.',
-      trainerIntro: 'Короткие сессии, понятный интерфейс и разные типы заданий — чтобы возвращаться к немецкому регулярно.',
-      feature1Title: 'Слова и переводы', feature1Text: 'Тренируйте лексику в обе стороны и сразу проверяйте себя.',
-      feature2Title: 'Артикли', feature2Text: 'Отдельная практика der, die, das без лишних отвлечений.',
-      feature3Title: 'Конструкции', feature3Text: 'Закрепляйте предлоги и устойчивые сочетания на практике.',
+      trainerIntro: 'Короткие сессии, понятный интерфейс и практика слов на немецком, английском и французском. Для немецкого — дополнительные упражнения.',
+      feature1Title: 'Слова и переводы', feature1Text: 'Тренируйте слова и переводы на немецком, английском и французском — в удобном темпе.',
+      feature2Title: 'Для немецкого: артикли', feature2Text: 'Отдельная практика der, die, das без лишних отвлечений.',
+      feature3Title: 'Для немецкого: конструкции', feature3Text: 'Закрепляйте предлоги и устойчивые сочетания на практике.',
       flow1: 'Изучи', flow2: 'Повтори', flow3: 'Посмотри', flow4: 'Практикуй снова',
-      youtubeTitle: 'Смотри. Запоминай. Возвращайся к практике.', youtubeIntro: 'Два канала с немецким: выбирайте удобный язык объяснений.',
+      youtubeTitle: 'Смотри. Запоминай. Возвращайся к практике.', youtubeIntro: 'Изучаете немецкий? На двух каналах MOYAMOVA — видео с украинскими и русскими объяснениями.',
       videoPending: 'Загружаем последние видео…', videoConfig: 'Если список ещё не обновился — откройте канал напрямую.',
       channelUkText: 'Немецкий с украинским переводом', channelRuText: 'Немецкий с русским переводом', openChannel: 'Открыть канал',
       scheduleKicker: 'График публикаций', scheduleTitle: 'Новый немецкий — почти каждый день.',
@@ -38,22 +42,26 @@
       betaKicker: 'Бета-тест MOYAMOVA', betaTitle: 'Хотите помочь MOYAMOVA стать лучше?',
       betaText: 'Присоединяйтесь к бета-тестированию новых функций и версий приложения.', betaButton: 'Стать бета-тестером',
       ctaKicker: 'Можно начать прямо сейчас', ctaTitle: 'Открой MOYAMOVA и попробуй одну сессию.',
-      footerText: 'Немецкий — меньше теории, больше практики.', trainerLink: 'Тренажёр', privacy: 'Политика конфиденциальности', terms: 'Условия использования'
+      footerText: 'Языки — больше практики, меньше лишнего.', trainerLink: 'Тренажёр', privacy: 'Политика конфиденциальности', terms: 'Условия использования'
     },
     uk: {
-      navTrainer: 'Тренажер', navHelp: 'Допомога', eyebrow: 'Німецька без зайвої теорії',
-      heroTitle: 'Вивчай німецьку<br><span>на практиці.</span>',
-      heroLead: 'MOYAMOVA — простий тренажер слів, артиклів і конструкцій. Відкривається просто у браузері.',
+      navTrainer: 'Тренажер', navHelp: 'Допомога', eyebrow: 'Deutsch · English · Français',
+      seoTitle: 'MOYAMOVA — тренажер іноземних мов | Німецька, англійська та французька',
+      seoDescription: 'Безкоштовний мовний тренажер MOYAMOVA: вивчайте німецькі, англійські та французькі слова, повторюйте вивчене й стежте за прогресом. Для німецької — окремі тренування артиклів і прийменників.',
+      seoOgTitle: 'MOYAMOVA — тренажер іноземних мов',
+      seoOgDescription: 'Німецька, англійська та французька: слова, повторення й прогрес в одному тренажері. Для німецької — додаткові вправи.',
+      heroTitle: 'Вивчай мови<br><span>на практиці.</span>',
+      heroLead: 'MOYAMOVA — простий тренажер німецької, англійської та французької. Слова, повторення й прогрес — просто у браузері.',
       openTrainer: 'Запустити тренажер', heroNote: 'Безкоштовно · без встановлення',
       point1: 'Слова й переклади', point2: 'Артиклі та граматика', point3: 'Повторення помилок',
       floatPractice: 'Практика<br><b>без перевантаження</b>', floatLevel: 'в одному<br>тренажері',
       trainerKicker: 'Всередині MOYAMOVA', trainerTitle: 'Тільки те, що допомагає практикуватися.',
-      trainerIntro: 'Короткі сесії, зрозумілий інтерфейс і різні типи завдань — щоб регулярно повертатися до німецької.',
-      feature1Title: 'Слова й переклади', feature1Text: 'Тренуйте лексику в обидва боки та одразу перевіряйте себе.',
-      feature2Title: 'Артиклі', feature2Text: 'Окрема практика der, die, das без зайвих відволікань.',
-      feature3Title: 'Конструкції', feature3Text: 'Закріплюйте прийменники та сталі сполучення на практиці.',
+      trainerIntro: 'Короткі сесії, зрозумілий інтерфейс і практика слів німецькою, англійською та французькою. Для німецької — додаткові вправи.',
+      feature1Title: 'Слова й переклади', feature1Text: 'Тренуйте слова й переклади німецькою, англійською та французькою — у зручному темпі.',
+      feature2Title: 'Для німецької: артиклі', feature2Text: 'Окрема практика der, die, das без зайвих відволікань.',
+      feature3Title: 'Для німецької: конструкції', feature3Text: 'Закріплюйте прийменники та сталі сполучення на практиці.',
       flow1: 'Вивчи', flow2: 'Повтори', flow3: 'Подивись', flow4: 'Практикуй знову',
-      youtubeTitle: 'Дивись. Запам’ятовуй. Повертайся до практики.', youtubeIntro: 'Два канали з німецькою: обирайте зручну мову пояснень.',
+      youtubeTitle: 'Дивись. Запам’ятовуй. Повертайся до практики.', youtubeIntro: 'Вивчаєте німецьку? На двох каналах MOYAMOVA — відео з українськими та російськими поясненнями.',
       videoPending: 'Завантажуємо останні відео…', videoConfig: 'Якщо список ще не оновився — відкрийте канал напряму.',
       channelUkText: 'Німецька з українським перекладом', channelRuText: 'Німецька з російським перекладом', openChannel: 'Відкрити канал',
       scheduleKicker: 'Графік публікацій', scheduleTitle: 'Нова німецька — майже щодня.',
@@ -69,7 +77,7 @@
       betaKicker: 'Бета-тест MOYAMOVA', betaTitle: 'Хочете допомогти MOYAMOVA стати кращою?',
       betaText: 'Приєднуйтеся до бета-тестування нових функцій і версій застосунку.', betaButton: 'Стати бета-тестером',
       ctaKicker: 'Можна почати прямо зараз', ctaTitle: 'Відкрий MOYAMOVA і спробуй одну сесію.',
-      footerText: 'Німецька — менше теорії, більше практики.', trainerLink: 'Тренажер', privacy: 'Політика конфіденційності', terms: 'Умови використання'
+      footerText: 'Мови — більше практики, менше зайвого.', trainerLink: 'Тренажер', privacy: 'Політика конфіденційності', terms: 'Умови використання'
     }
   };
 
@@ -110,21 +118,41 @@
     if (!translations[lang]) lang = 'ru';
     document.documentElement.lang = lang === 'uk' ? 'uk' : 'ru';
     document.documentElement.dataset.lang = lang;
+
+    const seo = translations[lang];
+    document.title = seo.seoTitle;
+    const metaDescription = document.querySelector('meta[name="description"]');
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    const ogLocale = document.querySelector('meta[property="og:locale"]');
+    const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+    const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+    if (metaDescription) metaDescription.content = seo.seoDescription;
+    if (ogTitle) ogTitle.content = seo.seoOgTitle;
+    if (ogDescription) ogDescription.content = seo.seoOgDescription;
+    if (ogLocale) ogLocale.content = lang === 'uk' ? 'uk_UA' : 'ru_RU';
+    if (twitterTitle) twitterTitle.content = seo.seoOgTitle;
+    if (twitterDescription) twitterDescription.content = seo.seoOgDescription;
+
     document.querySelectorAll('[data-lang-btn]').forEach(btn => btn.classList.toggle('is-active', btn.dataset.langBtn === lang));
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const value = translations[lang][el.dataset.i18n];
       if (value != null) el.innerHTML = value;
     });
-    // Keep product screenshots in the same language as the landing UI.
+    // Product screenshots follow the RU/UA landing localization.
     const screenLang = lang === 'uk' ? 'uk' : 'ru';
+
+    document.querySelectorAll('[data-multilang-screen]').forEach(img => {
+      const screen = img.dataset.multilangScreen;
+      img.src = `./assets/img/app/screen-${screen}-${screenLang}.png?v=20260909-3`;
+    });
+
     document.querySelectorAll('[data-app-screen]').forEach(img => {
       const screen = img.dataset.appScreen;
-      if (screen === 'trainer') {
-        img.src = `./assets/img/app/screen-1-${screenLang}.png`;
-      } else if (screen === 'articles') {
-        img.src = `./assets/img/app/screen-2-${screenLang}.png`;
+      if (screen === 'articles') {
+        img.src = `./assets/img/app/screen-2-${screenLang}.png?v=20260909-3`;
       } else if (screen === 'prepositions') {
-        img.src = `./assets/img/app/screen-3-${screenLang}.png`;
+        img.src = `./assets/img/app/screen-3-${screenLang}.png?v=20260909-3`;
       }
     });
     const legalLang = lang === 'uk' ? 'uk' : 'ru';

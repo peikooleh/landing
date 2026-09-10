@@ -4,15 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f7fbfc">
-  <title>MOYAMOVA — тренажёр немецкого языка</title>
-  <meta name="description" content="MOYAMOVA — веб-тренажёр немецкого языка: слова, артикли, предлоги и практика. Откройте тренажёр прямо в браузере.">
-  <meta property="og:title" content="MOYAMOVA — тренажёр немецкого языка">
-  <meta property="og:description" content="Учите немецкий практикой. Тренажёр и видео на русском и украинском.">
+  <title>MOYAMOVA — тренажёр иностранных языков | Немецкий, английский и французский</title>
+  <meta name="description" content="Бесплатный языковой тренажёр MOYAMOVA: учите немецкие, английские и французские слова, повторяйте изученное и следите за прогрессом. Для немецкого — отдельные тренировки артиклей и предлогов.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://moyamova.com/">
+  <meta property="og:title" content="MOYAMOVA — тренажёр иностранных языков">
+  <meta property="og:description" content="Немецкий, английский и французский: слова, повторение и прогресс в одном тренажёре. Для немецкого — дополнительные упражнения.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="./assets/img/logo.png">
+  <meta property="og:url" content="https://moyamova.com/">
+  <meta property="og:site_name" content="MOYAMOVA">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="https://moyamova.com/assets/img/og-moyamova.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MOYAMOVA — тренажёр иностранных языков">
+  <meta name="twitter:description" content="Немецкий, английский и французский: слова, повторение и прогресс в одном тренажёре.">
+  <meta name="twitter:image" content="https://moyamova.com/assets/img/og-moyamova.png">
   <link rel="icon" href="./assets/img/logo.png">
-  <link rel="preload" href="./assets/img/app/screen-1-ru.png" as="image">
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preload" href="./assets/img/app/screen-en-ru.png?v=20260909-3" as="image">
+  <link rel="stylesheet" href="./assets/css/main.css?v=20260909-3">
 
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-60RP2TVKJW"></script>
@@ -21,6 +30,19 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-60RP2TVKJW', { anonymize_ip: true });
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "MOYAMOVA",
+    "url": "https://moyamova.com/",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "isAccessibleForFree": true,
+    "inLanguage": ["ru", "uk"],
+    "description": "Языковой тренажёр для практики немецкого, английского и французского. Для немецкого доступны дополнительные упражнения с артиклями и предлогами."
+  }
   </script>
 </head>
 <body>
@@ -45,9 +67,9 @@
   <main id="top">
     <section class="hero shell">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">Немецкий без лишней теории</span></div>
-        <h1 data-i18n="heroTitle">Учи немецкий<br><span>практикой.</span></h1>
-        <p class="hero-lead" data-i18n="heroLead">MOYAMOVA — простой тренажёр слов, артиклей и конструкций. Открывается прямо в браузере.</p>
+        <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">Deutsch · English · Français</span></div>
+        <h1 data-i18n="heroTitle">Учи языки<br><span>практикой.</span></h1>
+        <p class="hero-lead" data-i18n="heroLead">MOYAMOVA — простой тренажёр немецкого, английского и французского. Слова, повторение и прогресс — прямо в браузере.</p>
         <div class="hero-actions">
           <a href="https://moyamova.online/" class="btn btn-primary" data-open-trainer><span data-i18n="openTrainer">Запустить тренажёр</span></a>
           <p class="hero-note" data-i18n="heroNote">Бесплатно · без установки</p>
@@ -58,7 +80,7 @@
         <div class="glow glow-a"></div>
         <div class="glow glow-b"></div>
         <div class="phone-card phone-main">
-          <img src="./assets/img/app/screen-1-ru.png" data-app-screen="trainer" alt="Экран нового тренажёра MOYAMOVA">
+          <img src="./assets/img/app/screen-en-ru.png?v=20260909-3" data-multilang-screen="en" alt="Тренировка английских слов в MOYAMOVA">
         </div>
         <div class="floating-card floating-one"><span class="floating-icon">✓</span><span data-i18n="floatPractice">Практика<br><b>без перегруза</b></span></div>
         <div class="floating-card floating-two"><span class="level-chip">A1–B2</span><span data-i18n="floatLevel">в одном<br>тренажёре</span></div>
@@ -72,7 +94,7 @@
             <p class="kicker" data-i18n="trainerKicker">Внутри MOYAMOVA</p>
             <h2 data-i18n="trainerTitle">Только то, что помогает практиковаться.</h2>
           </div>
-          <p data-i18n="trainerIntro">Короткие сессии, понятный интерфейс и разные типы заданий — чтобы возвращаться к немецкому регулярно.</p>
+          <p data-i18n="trainerIntro">Короткие сессии, понятный интерфейс и практика слов на немецком, английском и французском. Для немецкого — дополнительные упражнения.</p>
         </div>
 
         <div class="feature-grid">
@@ -80,27 +102,27 @@
             <div class="feature-copy">
               <span class="feature-number">01</span>
               <h3 data-i18n="feature1Title">Слова и переводы</h3>
-              <p data-i18n="feature1Text">Тренируйте лексику в обе стороны и сразу проверяйте себя.</p>
+              <p data-i18n="feature1Text">Тренируйте слова и переводы на немецком, английском и французском — в удобном темпе.</p>
             </div>
-            <div class="screen-crop"><img src="./assets/img/app/screen-1-ru.png" data-app-screen="trainer" alt="Тренировка слов в MOYAMOVA" loading="lazy"></div>
+            <div class="screen-crop"><img src="./assets/img/app/screen-fr-ru.png?v=20260909-3" data-multilang-screen="fr" alt="Тренировка французских слов в MOYAMOVA" loading="lazy"></div>
           </article>
 
           <article class="feature">
             <div class="feature-copy">
               <span class="feature-number">02</span>
-              <h3 data-i18n="feature2Title">Артикли</h3>
+              <h3 data-i18n="feature2Title">Для немецкого: артикли</h3>
               <p data-i18n="feature2Text">Отдельная практика der, die, das без лишних отвлечений.</p>
             </div>
-            <div class="screen-crop crop-two"><img src="./assets/img/app/screen-2-ru.png" data-app-screen="articles" alt="Тренировка артиклей в MOYAMOVA" loading="lazy"></div>
+            <div class="screen-crop crop-two"><img src="./assets/img/app/screen-2-ru.png?v=20260909-3" data-app-screen="articles" alt="Тренировка артиклей в MOYAMOVA" loading="lazy"></div>
           </article>
 
           <article class="feature">
             <div class="feature-copy">
               <span class="feature-number">03</span>
-              <h3 data-i18n="feature3Title">Конструкции</h3>
+              <h3 data-i18n="feature3Title">Для немецкого: конструкции</h3>
               <p data-i18n="feature3Text">Закрепляйте предлоги и устойчивые сочетания на практике.</p>
             </div>
-            <div class="screen-crop crop-three"><img src="./assets/img/app/screen-3-ru.png" data-app-screen="prepositions" alt="Тренировка предлогов в MOYAMOVA" loading="lazy"></div>
+            <div class="screen-crop crop-three"><img src="./assets/img/app/screen-3-ru.png?v=20260909-3" data-app-screen="prepositions" alt="Тренировка предлогов в MOYAMOVA" loading="lazy"></div>
           </article>
         </div>
       </div>
@@ -125,7 +147,7 @@
             <p class="kicker">MOYAMOVA · YouTube</p>
             <h2 data-i18n="youtubeTitle">Смотри. Запоминай. Возвращайся к практике.</h2>
           </div>
-          <p data-i18n="youtubeIntro">Два канала с немецким: выбирайте удобный язык объяснений.</p>
+          <p data-i18n="youtubeIntro">Изучаете немецкий? На двух каналах MOYAMOVA — видео с украинскими и русскими объяснениями.</p>
         </div>
 
         <div class="channel-grid" id="channelGrid">
@@ -291,7 +313,7 @@
     <div class="shell footer-grid">
       <div class="footer-brand">
         <a class="brand" href="#top"><img src="./assets/img/logo.png" alt="" width="36" height="36"><span>MOYAMOVA</span></a>
-        <p data-i18n="footerText">Немецкий — меньше теории, больше практики.</p>
+        <p data-i18n="footerText">Языки — больше практики, меньше лишнего.</p>
       </div>
       <div class="footer-links">
         <a href="https://moyamova.online/" data-open-trainer data-i18n="trainerLink">Тренажёр</a>
@@ -309,6 +331,6 @@
   </footer>
 
   <script src="./assets/js/config.js"></script>
-  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/app.js?v=20260909-3"></script>
 </body>
 </html>

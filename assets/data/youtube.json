@@ -1,28 +1,35 @@
 {
-  "updatedAt": "2026-09-20T04:59:10.824277+00:00",
+  "updatedAt": "2026-09-20T11:32:32.952661+00:00",
   "channels": {
     "uk": {
       "videos": [
+        {
+          "id": "apLlAZAEaxg",
+          "title": "Вчи іноземні слова ЛЕГКО! | Спробуй наш тренажер 🔥#shorts",
+          "published": "2026-09-20T11:00:14+00:00",
+          "thumbnail": "https://i2.ytimg.com/vi/apLlAZAEaxg/hqdefault.jpg"
+        },
+        {
+          "id": "RwCO8ZcQyio",
+          "title": "Секретна німецька фраза, яку говорять УСІ носії! 🇩🇪 #shorts #німецькадляпочатківців #німецька",
+          "published": "2026-09-20T05:00:24+00:00",
+          "thumbnail": "https://i3.ytimg.com/vi/RwCO8ZcQyio/hqdefault.jpg"
+        },
         {
           "id": "fBevUbW6JYY",
           "title": "🇩🇪 Секрет дієслова TRAGEN! 1 слово = 5 нових слів 💡",
           "published": "2026-09-19T05:00:33+00:00",
           "thumbnail": "https://i3.ytimg.com/vi/fBevUbW6JYY/hqdefault.jpg"
-        },
-        {
-          "id": "tNVu5Vw6KxU",
-          "title": "Твоя німецька стане дорослою! ТОП німецьких іменників УРОВНЯ А2 з перекладом",
-          "published": "2026-09-18T15:00:32+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/tNVu5Vw6KxU/hqdefault.jpg"
-        },
-        {
-          "id": "tbBjOFSHgG4",
-          "title": "🇩🇪 1 слово = 5 нових дієслів! Глагол FINDEN 💡",
-          "published": "2026-09-18T05:00:24+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/tbBjOFSHgG4/hqdefault.jpg"
         }
       ],
       "playlists": [
+        {
+          "id": "PLbo9nmyjJYXY",
+          "title": "Тренажер слів MOYAMOVA | Інструкції та Функціонал",
+          "thumbnail": "https://i.ytimg.com/vi/apLlAZAEaxg/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4AfQGgAKAD4oCDAgAEAEYEyA5KH8wDw==&rs=AOn4CLDVxcru5y8mZoF36W_koAB1lp5wcQ",
+          "videoCount": null,
+          "url": "https://www.youtube.com/playlist?list=PLbo9nmyjJYXY"
+        },
         {
           "id": "PLWiGJJHNwCls",
           "title": "МЕГА - Підбірки",
@@ -33,7 +40,7 @@
         {
           "id": "PLP70dlLGn6Pc",
           "title": "Німецька фраза дня | Shorts",
-          "thumbnail": "https://i.ytimg.com/vi/b1p31DLucnM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBD5YEDl7qvBBKOv0y8YoA2s2XXyQ",
+          "thumbnail": "https://i.ytimg.com/vi/RwCO8ZcQyio/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC_V1YIhZ17RrGB-ZnOGbx0b1IK5Q",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLP70dlLGn6Pc"
         },
@@ -61,14 +68,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CKSYvdUG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLDUPyaXEgyDxKlvr5x_UkjdtC5sxw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CNLjvtUG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLA-QhejVpaRwUJF680vKYpjgKCl2w",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=COC3vdUG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLDrv4hX0X5_fGZ8fG-zHagbV6Ooag",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CJPKvtUG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLDI5oXH0zo_SpqE4GkFVbKOJauweg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -76,6 +83,12 @@
     },
     "ru": {
       "videos": [
+        {
+          "id": "M93xmOKz-2k",
+          "title": "🇩🇪 1 глагол HALTEN = 5 новых слов! Немецкий язык",
+          "published": "2026-09-20T05:00:21+00:00",
+          "thumbnail": "https://i2.ytimg.com/vi/M93xmOKz-2k/hqdefault.jpg"
+        },
         {
           "id": "p11SHcxAveU",
           "title": "🇩🇪 1 слово = 5 глаголов! Секрет глагола HALTEN 🚀",
@@ -87,12 +100,6 @@
           "title": "Главный капкан уровня А2! Немецкие ГЛАГОЛЫ, которые жестко требуют только DATIV",
           "published": "2026-09-18T15:00:31+00:00",
           "thumbnail": "https://i3.ytimg.com/vi/JFaM_dE1jn4/hqdefault.jpg"
-        },
-        {
-          "id": "B99RiG6oGSs",
-          "title": "🇩🇪 1 слово = 10 глаголов! Секрет глагола GEHEN 🔥",
-          "published": "2026-09-18T05:00:32+00:00",
-          "thumbnail": "https://i3.ytimg.com/vi/B99RiG6oGSs/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -113,35 +120,35 @@
         {
           "id": "PLNDCUhM4F0h8",
           "title": "Семейства немецких глаголов | Deutsch Shorts",
-          "thumbnail": "https://i.ytimg.com/vi/p11SHcxAveU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBk2oRjDLby1HQhkUdwlWWVkci29w",
+          "thumbnail": "https://i.ytimg.com/vi/M93xmOKz-2k/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB4A4KXVKy8scDVN8XWhvOeYyQHvQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLNDCUhM4F0h8"
         },
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CKrMvdUG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLB8_KbuItnxZISnGSySxLpWFGaRxw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CNHFvtUG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLCyNL0eYjhxTIZ4CmpcWoZWi4jvOQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CKy4vdUG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLCJZwxbEbSh9-I784rW8bGuAWknpQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=COiBv9UG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLBc5XRMMreRmNiDuaY6uQV1GOSaZg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CK2tvdUG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLDaBZw0nosotS-NcSHM26uDv_RUmQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CNyBv9UG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLCq9ncnAMGt66jd86ix9igKQx2cCg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CITGvdUG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLDNzw6oxL-KeG9M-_9ygSYeYBuQpw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CKDGvtUG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLAiXVfefY10LshzbQoQ4nXbC8TNMA",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }

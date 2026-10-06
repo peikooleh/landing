@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-06T06:29:12.165298+00:00",
+  "updatedAt": "2026-10-06T18:27:04.183925+00:00",
   "channels": {
     "uk": {
       "videos": [
+        {
+          "id": "rZyU5_o9N5k",
+          "title": "Твій словниковий запас зростає! ТОП-100 німецьких дієслів B1 (Частина 2 з 8)",
+          "published": "2026-10-06T15:00:21+00:00",
+          "thumbnail": "https://i3.ytimg.com/vi/rZyU5_o9N5k/hqdefault.jpg"
+        },
+        {
+          "id": "vHA7R09fpFE",
+          "title": "🇩🇪 Слово SCHLAGEN: 1 дієслово = 5 нових фраз! 💥",
+          "published": "2026-10-06T05:00:04+00:00",
+          "thumbnail": "https://i3.ytimg.com/vi/vHA7R09fpFE/hqdefault.jpg"
+        },
         {
           "id": "Oxyl2AMuuLY",
           "title": "🔑 1 слово = 5 дієслів: сімейство «halten»",
           "published": "2026-10-05T05:00:33+00:00",
           "thumbnail": "https://i4.ytimg.com/vi/Oxyl2AMuuLY/hqdefault.jpg"
-        },
-        {
-          "id": "dGqYQXfxPoE",
-          "title": "🔑 1 слово – 5 дієслів! Секрет сімейства «nehmen»",
-          "published": "2026-10-04T05:00:09+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/dGqYQXfxPoE/hqdefault.jpg"
-        },
-        {
-          "id": "Tc9FgnJq-WY",
-          "title": "🔎 1 слово = 5 дієслів! Секрет сімейства «nehmen» – вивчай швидко!",
-          "published": "2026-10-03T05:00:01+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/Tc9FgnJq-WY/hqdefault.jpg"
         }
       ],
       "playlists": [
@@ -75,14 +75,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=COWgktYG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLCAUwucxTDBjYJ7NNK46MOwf4TC6w",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CIbglNYG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLBQkbD4tEW2wqwb5u4qry1zePvs8Q",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CMjykdYG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLDlSnXbk2rgCmZb65Qq7JIl7k-u_Q",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CPzrlNYG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLASaE2YP9i7znTdvgWH73W1VGkwQQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -91,29 +91,29 @@
     "ru": {
       "videos": [
         {
+          "id": "kJz8hgBb_iQ",
+          "title": "ПРИЛАГАТЕЛЬНЫЕ B1 — слушай и повторяй (Часть 1)",
+          "published": "2026-10-06T15:00:34+00:00",
+          "thumbnail": "https://i4.ytimg.com/vi/kJz8hgBb_iQ/hqdefault.jpg"
+        },
+        {
+          "id": "_X5TtGDFo6E",
+          "title": "🇩🇪 1 слово = 5 глаголов! Секрет немецкого schreiben ✍️",
+          "published": "2026-10-06T05:00:20+00:00",
+          "thumbnail": "https://i4.ytimg.com/vi/_X5TtGDFo6E/hqdefault.jpg"
+        },
+        {
           "id": "M04WbwfOpiA",
           "title": "🇩🇪 Глагол FINDEN и его семейство! 1 слово = 5 глаголов 🔥",
           "published": "2026-10-05T05:00:22+00:00",
           "thumbnail": "https://i2.ytimg.com/vi/M04WbwfOpiA/hqdefault.jpg"
-        },
-        {
-          "id": "g2k9Ad-ZICk",
-          "title": "1 слово = 5 глаголов! 🔥 Глагол LAUFEN в немецком 🇩🇪",
-          "published": "2026-10-04T05:00:32+00:00",
-          "thumbnail": "https://i4.ytimg.com/vi/g2k9Ad-ZICk/hqdefault.jpg"
-        },
-        {
-          "id": "Xy9ZCxy_Fr8",
-          "title": "🔑 1 слово = 5 глаголов: секрет семейства «legen» 🚀 (часть 2)",
-          "published": "2026-10-03T05:00:31+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/Xy9ZCxy_Fr8/hqdefault.jpg"
         }
       ],
       "playlists": [
         {
           "id": "PLGlYDW9x5LS0",
           "title": "Немецкий B1 : Deutsch_B1",
-          "thumbnail": "https://i.ytimg.com/vi/12MTNM9Fuv0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDMcItfBND1ds2M1eq4VyOdZnDhZw",
+          "thumbnail": "https://i.ytimg.com/vi/kJz8hgBb_iQ/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCXy94itbo0YtOhNjw_gl7kDL_2mg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLGlYDW9x5LS0"
         },
@@ -141,28 +141,28 @@
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CISjktYG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLDhmOMU5oQsr3zGtKGnt8N_G4ZtzA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CNTmlNYG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLBeTbfcwQSg1SDK7Mwa36JofuxbOw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CN7vkdYG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLDGVq3RMycXszkQ-mf3kYP0Fbk4nw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CMzPlNYG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLDxCxGe5uJb__Tza0YUEacOf1bEKw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CKSDktYG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLC-mcuu0pLc-gDQfKaSaEGeWKpRwA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CLjclNYG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLDFoKXrk7ADINu2ub6I8Iby112O-g",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CMKIktYG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLBYYp9wYsyZWNRJ5xKrRQav5-JBTA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CLzrlNYG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLCWf6mYtQkpvnD49egotJ4ZMvEJ9g",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }

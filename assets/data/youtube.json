@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-10-30T13:05:24.709197+00:00",
+  "updatedAt": "2026-10-30T22:26:44.723042+00:00",
   "channels": {
     "uk": {
       "videos": [
+        {
+          "id": "hJmtxBZRt8M",
+          "title": "Зламай мовний бар'єр! ТОП-100 німецьких дієслів B1 (Частина 6 з 8)",
+          "published": "2026-10-30T16:00:32+00:00",
+          "thumbnail": "https://i1.ytimg.com/vi/hJmtxBZRt8M/hqdefault.jpg"
+        },
         {
           "id": "yLAUAvht_Fs",
           "title": "🇩🇪 Як сказати «Мені важко…» німецькою? | Es fällt mir schwer",
@@ -14,19 +20,13 @@
           "title": "SCHLIESSEN: як 1 дієслово дає 6 нових слів 🔐",
           "published": "2026-10-29T08:00:27+00:00",
           "thumbnail": "https://i4.ytimg.com/vi/WXESSu9g5UY/hqdefault.jpg"
-        },
-        {
-          "id": "h38lCw1qouI",
-          "title": "BLEIBEN — 6 дієслів для розмовної німецької 🇩🇪",
-          "published": "2026-10-28T08:00:37+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/h38lCw1qouI/hqdefault.jpg"
         }
       ],
       "playlists": [
         {
           "id": "PLXMMPhiHIL-U",
           "title": "Німецька B1 : Deutsch_B1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLXMMPhiHIL-U/studio_square_thumbnail.jpg?sqp=CLSHktcG-oaymwEICNYGEOADSFqi85f_AwYIhNKt1gY=&rs=AOn4CLCm9Ts1-XtRnV9ET93gT5kWF99TIA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLXMMPhiHIL-U/studio_square_thumbnail.jpg?sqp=CMSElNcG-oaymwEICNYGEOADSFqi85f_AwYIhNKt1gY=&rs=AOn4CLDQxcTj7gq79FBShiQ1gDmvkUMNoQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLXMMPhiHIL-U"
         },
@@ -47,14 +47,14 @@
         {
           "id": "PLEoHL49v2nok",
           "title": "Німецькі слова А1 по частинах мови | DE UA",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLEoHL49v2nok/studio_square_thumbnail.jpg?sqp=CLmmktcG-oaymwEICNYGEOADSFqi85f_AwYIwdmt1gY=&rs=AOn4CLAUrnnJtx2RWXwEnnuMKA4Ky7tlpQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLEoHL49v2nok/studio_square_thumbnail.jpg?sqp=CMmjlNcG-oaymwEICNYGEOADSFqi85f_AwYIwdmt1gY=&rs=AOn4CLBTHzr8jQG-984Mgp2ojfPrsQ_56A",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLEoHL49v2nok"
         },
         {
           "id": "PLNclOnNYO6fc",
           "title": "Німецька мова А1 по темах: Вся лексика для початківців 🇩🇪",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLNclOnNYO6fc/studio_square_thumbnail.jpg?sqp=CObpkdcG-oaymwEICNYGEOADSFqi85f_AwYIqNmt1gY=&rs=AOn4CLAiQrBfxDs2bSKnpNtDmoDPXTJhxg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLNclOnNYO6fc/studio_square_thumbnail.jpg?sqp=CPbmk9cG-oaymwEICNYGEOADSFqi85f_AwYIqNmt1gY=&rs=AOn4CLBZ1gmtjEE8zKKZ5Qhn1gUpkhmqlA",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLNclOnNYO6fc"
         },
@@ -68,14 +68,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CNaHktcG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLDSsoKKCdiYHRQHek9a-MFJbpH7cw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=COaElNcG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLCMYKdjao3eX9Hyt_E4fxy5AvKFPg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=COrwkdcG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLC3HZlOtq-W2rGuGpkgML0KVAHsvQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CPrtk9cG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLANF-E-BlJJ-7a11I6ZWMym24po1Q",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -83,6 +83,12 @@
     },
     "ru": {
       "videos": [
+        {
+          "id": "T0Z_VsuUxjI",
+          "title": "100 ГЛАГОЛОВ B1, которые точно расширят ваш словарный запас! (Часть 3)",
+          "published": "2026-10-30T16:00:28+00:00",
+          "thumbnail": "https://i1.ytimg.com/vi/T0Z_VsuUxjI/hqdefault.jpg"
+        },
         {
           "id": "2ItpYwEBWUw",
           "title": "BLEIBEN: 5 глаголов в семье 🇩🇪",
@@ -94,19 +100,13 @@
           "title": "«SCHLIESSEN» — 5 глаголов для разговорного немецкого 🇩🇪",
           "published": "2026-10-29T08:00:26+00:00",
           "thumbnail": "https://i4.ytimg.com/vi/sdL9MjQguDo/hqdefault.jpg"
-        },
-        {
-          "id": "0JEcEvX0vZY",
-          "title": "BLEIBEN: 5 глаголов‑производных для живой речи 🇩🇪",
-          "published": "2026-10-28T08:00:27+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/0JEcEvX0vZY/hqdefault.jpg"
         }
       ],
       "playlists": [
         {
           "id": "PLGlYDW9x5LS0",
           "title": "Немецкий B1 : Deutsch_B1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLGlYDW9x5LS0/studio_square_thumbnail.jpg?sqp=COGIktcG-oaymwEICNYGEOADSFqi85f_AwYIys2t1gY=&rs=AOn4CLArtR29w5aZx4LmYOo-uLLCPDBZvg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLGlYDW9x5LS0/studio_square_thumbnail.jpg?sqp=CPGFlNcG-oaymwEICNYGEOADSFqi85f_AwYIys2t1gY=&rs=AOn4CLDpfnwd0ZCQtt_oYKVahs-JxjScEg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLGlYDW9x5LS0"
         },
@@ -134,28 +134,28 @@
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CPDfkdcG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLA8yCsEH6DYTzmHJWal-r4cuQMv-w",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CLCxlNcG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLD86UxieH8F93SIcuQw21cNSCjQ3Q",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CJaMktcG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLD1aj3RJsEcVUG7oNzQWG-F58QBWA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CKaJlNcG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLCHl-9QOn9Kz16gH8bbpcLmif4p-A",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CKPmkdcG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLBie53ZrLiBCRJdxHqXoNJxIfIBow",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CLPjk9cG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLDVAceoLwWtq7_n-SWsdnCjR87n4w",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CI2rktcG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLAHf4fS7aTpIICaPFC2yUvtkzXuUQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CJ2olNcG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLCCNUSPskK89f_YCnz9iE0PhrZesg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }

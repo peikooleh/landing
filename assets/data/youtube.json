@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-11-15T06:44:35.501293+00:00",
+  "updatedAt": "2026-11-15T18:56:12.775079+00:00",
   "channels": {
     "uk": {
       "videos": [
+        {
+          "id": "GJlCM2JRSlc",
+          "title": "Ich habe mich dazu entschieden … – як правильно висловити рішення",
+          "published": "2026-11-15T14:00:15+00:00",
+          "thumbnail": "https://i4.ytimg.com/vi/GJlCM2JRSlc/hqdefault.jpg"
+        },
         {
           "id": "fT9tW2t6cdg",
           "title": "Ich habe damit gerechnet, dass … – як правильно висловити очікування",
@@ -14,19 +20,13 @@
           "title": "30 дієслів німецької мови A1: форми Infinitiv, Präteritum, Partizip II",
           "published": "2026-11-14T06:00:04+00:00",
           "thumbnail": "https://i4.ytimg.com/vi/GtZMXoXxCWk/hqdefault.jpg"
-        },
-        {
-          "id": "1vYWoOPW75I",
-          "title": "Ich bin gerade dabei, … zu … – як сказати, що ви щось робите зараз",
-          "published": "2026-11-13T14:00:29+00:00",
-          "thumbnail": "https://i2.ytimg.com/vi/1vYWoOPW75I/hqdefault.jpg"
         }
       ],
       "playlists": [
         {
           "id": "PLHUW1puGhSUU",
           "title": "3 форми німецьких дієслів: Infinitiv, Präteritum, Perfekt з перекладом",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLHUW1puGhSUU/studio_square_thumbnail.jpg?sqp=CNeh5dcG-oaymwEICIAKENAFSFqi85f_AwYIvMKs1wY=&rs=AOn4CLDvIxYFOs6THZ0MY4MqusSSGdsnNg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLHUW1puGhSUU/studio_square_thumbnail.jpg?sqp=CJfz59cG-oaymwEICIAKENAFSFqi85f_AwYIvMKs1wY=&rs=AOn4CLA_JGwykC4otxDICQNiZ-MPyHjH3A",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLHUW1puGhSUU"
         },
@@ -40,35 +40,35 @@
         {
           "id": "PLXMMPhiHIL-U",
           "title": "Німецька B1 : Deutsch_B1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLXMMPhiHIL-U/studio_square_thumbnail.jpg?sqp=CNSO5dcG-oaymwEICNYGEOADSFqi85f_AwYIhNKt1gY=&rs=AOn4CLCq5LW-7H2hPIy3jA1vjd2zX1kR0Q",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLXMMPhiHIL-U/studio_square_thumbnail.jpg?sqp=CJTg59cG-oaymwEICNYGEOADSFqi85f_AwYIhNKt1gY=&rs=AOn4CLBLktjvJpjyP0UZBA2BmroFJFQdIw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLXMMPhiHIL-U"
         },
         {
           "id": "PLWiGJJHNwCls",
           "title": "МЕГА - Підбірки",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLWiGJJHNwCls/studio_square_thumbnail.jpg?sqp=CIXv5NcG-oaymwEICIAKENAFSFqi85f_AwYIlten1wY=&rs=AOn4CLAX2YJTme6j1562bzHm6aeefH09cg",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLWiGJJHNwCls/studio_square_thumbnail.jpg?sqp=CMXA59cG-oaymwEICIAKENAFSFqi85f_AwYIlten1wY=&rs=AOn4CLCayjz2W7Tf_NGmJjS3XpZ4EWG00w",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLWiGJJHNwCls"
         },
         {
           "id": "PLP70dlLGn6Pc",
           "title": "Німецька фраза дня | Shorts",
-          "thumbnail": "https://i.ytimg.com/vi/fT9tW2t6cdg/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD8TYTAXbHKBOITJlPlaIdss-20UQ",
+          "thumbnail": "https://i.ytimg.com/vi/GJlCM2JRSlc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDAW3Y1isCH_vzXQFHosyvElbaZ3w",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLP70dlLGn6Pc"
         },
         {
           "id": "PLEoHL49v2nok",
           "title": "Німецькі слова А1 по частинах мови | DE UA",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLEoHL49v2nok/studio_square_thumbnail.jpg?sqp=CKnZ5NcG-oaymwEICNYGEOADSFqi85f_AwYIwdmt1gY=&rs=AOn4CLAHDxSeX3tnqddzSS0014GPUQwcQA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLEoHL49v2nok/studio_square_thumbnail.jpg?sqp=CJn_59cG-oaymwEICNYGEOADSFqi85f_AwYIwdmt1gY=&rs=AOn4CLBp16tNVlyrxSXBWEtNhgYvjmfeOQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLEoHL49v2nok"
         },
         {
           "id": "PLNclOnNYO6fc",
           "title": "Німецька мова А1 по темах: Вся лексика для початківців 🇩🇪",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLNclOnNYO6fc/studio_square_thumbnail.jpg?sqp=CIbx5NcG-oaymwEICNYGEOADSFqi85f_AwYIqNmt1gY=&rs=AOn4CLCgfd3R3f48ZYZj1qNVI1yuVurL5g",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLNclOnNYO6fc/studio_square_thumbnail.jpg?sqp=CMbC59cG-oaymwEICNYGEOADSFqi85f_AwYIqNmt1gY=&rs=AOn4CLB4Ajd_ta2Q5WpBjbPYU1fLc_cVUQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLNclOnNYO6fc"
         },
@@ -82,14 +82,14 @@
         {
           "id": "PLLkxyBA6vBgE",
           "title": "Німецька А2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CPaO5dcG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLD5ZAq1X4XfVTMAAQNxnqvFxUhd1w",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLkxyBA6vBgE/studio_square_thumbnail.jpg?sqp=CLbg59cG-oaymwEICIAKENAFSFqi85f_AwYInbi91AY=&rs=AOn4CLDtuuL-W24_BiVRVNRVhzveN2-GEw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLkxyBA6vBgE"
         },
         {
           "id": "PLCgV7MELMub4",
           "title": "Німецька A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CIr45NcG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLBtmUexnMhW7dslHDKODsFJ1Y9meQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLCgV7MELMub4/studio_square_thumbnail.jpg?sqp=CMrJ59cG-oaymwEICIAKENAFSFqi85f_AwYIvLm91AY=&rs=AOn4CLCbDbTvWkNcRgLwFyV7I7gwy1TFwg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLCgV7MELMub4"
         }
@@ -97,6 +97,12 @@
     },
     "ru": {
       "videos": [
+        {
+          "id": "_4SuF2vqC9c",
+          "title": "Ich bin gerade dabei, … zu … – Как сказать, что вы что‑то делаете сейчас",
+          "published": "2026-11-15T08:00:28+00:00",
+          "thumbnail": "https://i4.ytimg.com/vi/_4SuF2vqC9c/hqdefault.jpg"
+        },
         {
           "id": "WjwebbnXCfc",
           "title": "Verben Formen A1 – Teil 1: 30 базовых глаголов с формами прошедшего времени",
@@ -108,40 +114,34 @@
           "title": "Ich bin darauf angewiesen, dass … – как выразить зависимость в немецком 🌐",
           "published": "2026-11-14T08:00:13+00:00",
           "thumbnail": "https://i2.ytimg.com/vi/YA3MmNBh3ss/hqdefault.jpg"
-        },
-        {
-          "id": "lC4gmN162zs",
-          "title": "Ich achte darauf, dass … – Как следить за выполнением условий",
-          "published": "2026-11-13T08:00:29+00:00",
-          "thumbnail": "https://i1.ytimg.com/vi/lC4gmN162zs/hqdefault.jpg"
         }
       ],
       "playlists": [
         {
           "id": "PLdBXrqni-iEs",
           "title": "Учим 3 формы легко: Präsens, Präteritum, Perfekt",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLdBXrqni-iEs/studio_square_thumbnail.jpg?sqp=CNul5dcG-oaymwEICIAKENAFSFqi85f_AwYIhLSs1wY=&rs=AOn4CLA7AUIy0N_wKZ246N_-9TM3qUhvWA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLdBXrqni-iEs/studio_square_thumbnail.jpg?sqp=CJv359cG-oaymwEICIAKENAFSFqi85f_AwYIhLSs1wY=&rs=AOn4CLA6ALodaI9RL4hcaZWZwvA9qt4Jyw",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLdBXrqni-iEs"
         },
         {
           "id": "PLGlYDW9x5LS0",
           "title": "Немецкий B1 : Deutsch_B1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLGlYDW9x5LS0/studio_square_thumbnail.jpg?sqp=CIGQ5dcG-oaymwEICNYGEOADSFqi85f_AwYIys2t1gY=&rs=AOn4CLDp1WVRGf1re0mo9jHJi_4jQO_bkA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLGlYDW9x5LS0/studio_square_thumbnail.jpg?sqp=CMHh59cG-oaymwEICNYGEOADSFqi85f_AwYIys2t1gY=&rs=AOn4CLDsZ7pQc7WoZLrrQnQBb7eWc3LUaA",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLGlYDW9x5LS0"
         },
         {
           "id": "PLVxrV_zhRE1c",
           "title": "Мега-Подборки",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLVxrV_zhRE1c/studio_square_thumbnail.jpg?sqp=CPnu5NcG-oaymwEICIAKENAFSFqi85f_AwYIpdCn1wY=&rs=AOn4CLDYVfAYSLSHGYXeBQnp4i67FEPf_A",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLVxrV_zhRE1c/studio_square_thumbnail.jpg?sqp=CLnA59cG-oaymwEICIAKENAFSFqi85f_AwYIpdCn1wY=&rs=AOn4CLDZlaB8GQm1nKVIDLi3OdkdriVyrQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLVxrV_zhRE1c"
         },
         {
           "id": "PLUbabmlB5G-c",
           "title": "Немецкая фраза дня | Shorts",
-          "thumbnail": "https://i.ytimg.com/vi/YA3MmNBh3ss/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCuuJnVeWu6ZwUqyjt_YYY1woxcUg",
+          "thumbnail": "https://i.ytimg.com/vi/_4SuF2vqC9c/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCgXR0v--NEKwV9JQfBCCu3oc8ygQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLUbabmlB5G-c"
         },
@@ -155,28 +155,28 @@
         {
           "id": "PLLC3q2I8iUhk",
           "title": "Немецкий A1 | Слова по частям речи DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CJDn5NcG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLDFdci_I3GpPdoi7fQ1lVu9aKSJkA",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLLC3q2I8iUhk/studio_square_thumbnail.jpg?sqp=CNC459cG-oaymwEICIAKENAFSFqi85f_AwYI58K61AY=&rs=AOn4CLD9iiip5o7ZvZWFRHpPLobekCQOVQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLLC3q2I8iUhk"
         },
         {
           "id": "PLYU_y1ToHQ5g",
           "title": "Немецкий A1 | Слова по темам DE",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CLaT5dcG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLDmVkM4q5cPxZqPxjf5tcKONibfJw",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLYU_y1ToHQ5g/studio_square_thumbnail.jpg?sqp=CPbk59cG-oaymwEICIAKENAFSFqi85f_AwYIk8O61AY=&rs=AOn4CLAP1CEFxztUprsA3xHOQLCCIFbIzQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLYU_y1ToHQ5g"
         },
         {
           "id": "PLTRc0OtgN_-0",
           "title": "Немецкий A2 : Deutsch_A2",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CMPt5NcG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLDVutvyN4yuEz3GvOsweOo_NGwGRQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLTRc0OtgN_-0/studio_square_thumbnail.jpg?sqp=CIO_59cG-oaymwEICIAKENAFSFqi85f_AwYI8pa71AY=&rs=AOn4CLCcSmX8Lw4BTBsiiF51U35AcKQfzQ",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLTRc0OtgN_-0"
         },
         {
           "id": "PLFmrYe5tv-xo",
           "title": "Немецкий A1 : Deutsch_A1",
-          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CP3d5NcG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLDOFFBbL35NHyMiWfpdZKlfH7XNkQ",
+          "thumbnail": "https://i.ytimg.com/pl_c/PLFmrYe5tv-xo/studio_square_thumbnail.jpg?sqp=CL2v59cG-oaymwEICIAKENAFSFqi85f_AwYIhcW61AY=&rs=AOn4CLBv7j_liB2x5pqrW4IUA_kMI7qvPg",
           "videoCount": null,
           "url": "https://www.youtube.com/playlist?list=PLFmrYe5tv-xo"
         }
